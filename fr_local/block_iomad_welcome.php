@@ -1,5 +1,4 @@
 <?php
-
 // This file is part of Moodle - http://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
@@ -16,19 +15,18 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Local language pack from https://learnpre.norm-uni.fr
+ * Language string for IOMAD welcome block.
  *
- * @package    block
- * @subpackage iomad_welcome
- * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package   block_iomad_welcome
+ * @copyright 2021 Derick Turner
+ * @author    Derick Turner
+ * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-defined('MOODLE_INTERNAL') || die();
-
-$string['dashboardtext'] = 'Cliquez ici pour commencer à utiliser IOMAD';
-$string['iomad_welcome:addinstance'] = 'Ajouter un nouveau bloc Iomad Welcome';
-$string['iomad_welcome:myaddinstance'] = 'Ajouter un nouveau bloc Iomad Welcome au tableau de bord des utilisateurs';
-$string['iomad_welcome:view'] = 'Voir Iomad Welcome';
-$string['message'] = 'Bienvenue sur <b>IOMAD</b> de E-Learn Design Limited. Iomad est contrôlé à partir de son propre tableau de bord. Suivez le lien ci-dessous. Vous commencerez par créer votre première entreprise.';
-$string['pluginname'] = 'Iomad - Bienvenue';
-$string['privacy:metadata'] = 'Le bloc Iomad Welcome affiche uniquement les données stockées dans d\'autres emplacements.';
+$string['dashboardtext'] = 'Click here to start using IOMAD';
+$string['iomad_welcome:addinstance'] = 'Add a new IOMAD Welcome block';
+$string['iomad_welcome:myaddinstance'] = 'Add a new IOMAD Welcome block to the user\'s dashboard';
+$string['iomad_welcome:view'] = 'View IOMAD Welcome';
+$string['message'] = 'Welcome to <b>IOMAD</b> from E-Learn Design Limited. IOMAD is controlled from its own Dashboard. Follow the link below. You will start by creating your first company.';
+$string['pluginname'] = 'IOMAD - Welcome';
+$string['privacy:metadata'] = 'The IOMAD Welcome block only shows data stored in other locations.';

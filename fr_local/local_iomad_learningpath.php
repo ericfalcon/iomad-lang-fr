@@ -1,5 +1,4 @@
 <?php
-
 // This file is part of Moodle - http://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
@@ -15,87 +14,79 @@
 // You should have received a copy of the GNU General Public License
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
-/**
- * Local language pack from https://learnpre.norm-uni.fr
- *
- * @package    local
- * @subpackage iomad_learningpath
- * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
- */
-
-defined('MOODLE_INTERNAL') || die();
-
 $string['actions'] = 'Actions';
-$string['active'] = 'Actif';
-$string['active_help'] = 'Le parcours d\'apprentissage est-il disponible pour les étudiants';
-$string['addgroup'] = 'Ajouter un groupe';
-$string['addpath'] = 'Ajouter un nouveau parcours';
-$string['addtopath'] = 'Ajouter au parcours';
-$string['all'] = 'Tout';
-$string['both'] = 'Les deux';
-$string['clicktoadd'] = 'Cliquez sur <i class="fa fa-plus text-muted"></i> ou faites glisser <i class="fa fa-arrows text-muted"></i> pour ajouter';
-$string['clicktoremove'] = 'Cliquez sur <i class="fa fa-trash text-muted"></i> pour supprimer. Faites glisser <i class="fa fa-arrows text-muted"></i> pour commander ou supprimer.';
-$string['closeeye'] = 'Rendre indisponible';
-$string['companymismatch'] = 'Le parcours de l\'entreprise ne correspond pas à l\'entreprise que vous avez sélectionnée';
-$string['confirm'] = 'Confirmer';
-$string['confirmcopy'] = 'Voulez-vous dupliquer complètement ce parcours ?';
-$string['confirmdelete'] = 'Voulez-vous vraiment supprimer ce parcours ? L\'action ne peut pas être inversée.';
-$string['copypath'] = 'Parcours en double';
-$string['courselink'] = 'Aller au cours...';
-$string['coursesinpath'] = 'Cours dans le parcours';
-$string['deletefrompath'] = 'Supprimer du parcours';
-$string['deletegroup'] = 'Supprimer le groupe';
-$string['deletepath'] = 'Supprimer le parcours';
+$string['active'] = 'Active';
+$string['active_help'] = 'Is learning path available to users';
+$string['addpath'] = 'Add new path';
+$string['addgroup'] = 'Add section';
+$string['addtopath'] = 'Add to path';
+$string['all'] = 'All';
+$string['both'] = 'Both';
+$string['clicktoadd'] = 'Click <i class="fa fa-plus text-muted"></i> or drag <i class="fa fa-arrows text-muted"></i> to add';
+$string['clicktoremove'] = 'Click <i class="fa fa-trash text-muted"></i> to remove. Drag <i class="fa fa-arrows text-muted"></i> to order or remove.';
+$string['closeeye'] = 'Make unavailable';
+$string['companymismatch'] = 'Path company does not match your selected company';
+$string['confirm'] = 'Confirm';
+$string['confirmcopy'] = 'Do you want to completely duplicate this path?';
+$string['confirmdelete'] = 'Do you really want to delete this path? This action cannot be reversed.';
+$string['copypath'] = 'Duplicate path';
+$string['courselink'] = 'Go to course...';
+$string['coursesinpath'] = 'Courses in path';
+$string['deletepath'] = 'Delete path';
+$string['deletefrompath'] = 'Delete from path';
+$string['deletegroup'] = 'Delete section';
 $string['description'] = 'Description';
-$string['description_help'] = 'Description complète du parcours d\'apprentissage';
-$string['done'] = 'Fait';
-$string['draganddrop'] = 'Faites glisser pour déplacer/ordonner';
-$string['dragtoorder'] = 'Faites glisser pour commander';
-$string['editcourselist'] = 'Modifier la liste des cours';
-$string['editgroup'] = 'Modifier le groupe';
-$string['editpath'] = 'Modifier le parcours';
-$string['editstudents'] = 'Affecter des étudiants';
-$string['filter'] = 'Filtre';
-$string['fullname'] = 'Nom complet';
-$string['groupname'] = 'Nom de groupe';
-$string['groupnamesequential'] = '{$a} (Séquentiel)';
-$string['groupname_help'] = 'Donnez un nom au groupe de cours';
-$string['grouptitle'] = 'Groupes de parcours d\'apprentissage';
-$string['iomad_learningpath:manage'] = 'Gérer les parcours d\'apprentissage';
-$string['iomad_learningpath:view'] = 'Voir le parcours d\'apprentissage';
-$string['learningpathedit'] = 'Modifier le parcours d\'apprentissage';
-$string['learningpathmanage'] = 'Gestion des parcours d\'apprentissage';
-$string['learningpaths'] = 'Parcours d\'apprentissage';
-$string['managecourses'] = 'Gérer les parcours d\'apprentissage';
-$string['managestudents'] = 'Gérer les affectations des étudiants';
-$string['managetitle'] = 'Gérer les parcours d\'apprentissage';
-$string['name'] = 'Nom';
-$string['name_help'] = 'Nom du parcours d\'apprentissage';
-$string['nocoursesingroup'] = 'Aucun cours dans ce groupe de parcours d\'apprentissage';
-$string['nocoursesinpath'] = 'Aucun cours dans ce parcours d\'apprentissage';
-$string['nopath'] = 'Le parcours est manquant';
-$string['nopaths'] = 'Aucun parcours d\'apprentissage n\'a été créé';
-$string['nopathusers'] = 'Aucun utilisateur affecté au parcours d\'apprentissage';
-$string['noprospectivecourses'] = 'Pas de cours potentiel';
-$string['noprospectiveusers'] = 'Aucun utilisateur potentiel';
-$string['notactive'] = 'Pas actif';
-$string['openeye'] = 'Mettre à la disposition';
-$string['pathcompany'] = 'Modifier le parcours de \'{$a}\\';
-$string['picture'] = 'Image';
-$string['picture_help'] = 'Image associée au parcours d\'apprentissage';
-$string['pluginname'] = 'Parcours d\'apprentissage Iomad';
-$string['prospectivecourses'] = 'Cours à venir';
-$string['prospectivestudents'] = 'Les futurs étudiants';
-$string['removepath'] = 'Supprimé - Informations sur le parcours d\'apprentissage';
-$string['selectedstudents'] = 'Les affectations des élèves sélectionnés';
-$string['sequential'] = 'Séquentiel';
-$string['sequential_'] = 'Les cours dans un groupe séquentiel doivent être suivis dans l\'ordre dans lequel ils sont répertoriés';
-$string['shortname'] = 'Nom court';
-$string['showcoursedescription'] = 'Afficher la description du cours';
-$string['showcoursedescription_desc'] = 'Afficher la description complète du cours dans les plans d\'apprentissage';
-$string['showcoursename'] = 'Afficher le nom du cours';
-$string['showcoursename_desc'] = 'Niveau de détail dans le nom du cours';
-$string['showprogress'] = 'Afficher la progression';
-$string['showprogress_desc'] = 'Montrer les progrès dans les plans d\'apprentissage';
-$string['toomanyprospectiveusers'] = 'Trop d\'utilisateurs potentiels. Spécifiez un filtre';
-$string['untitledgroup'] = 'Groupe sans titre';
+$string['description_help'] = 'Full description of learning path';
+$string['done'] = 'Done';
+$string['draganddrop'] = 'Drag to move/order';
+$string['dragtoorder'] = 'Drag to order';
+$string['editcourselist'] = 'Edit course list';
+$string['editgroup'] = 'Edit section';
+$string['editpath'] = 'Edit path';
+$string['editstudents'] = 'Assign users';
+$string['filter'] = 'Filter';
+$string['fullname'] = 'Full name';
+$string['groupname'] = 'Section name';
+$string['groupname_help'] = 'Give the section for the courses a name';
+$string['groupnamesequential'] = '{$a} (Sequential)';
+$string['grouptitle'] = 'Learning path sections';
+$string['iomad_learningpath:assign'] = 'Assign users to a learning path';
+$string['iomad_learningpath:manage'] = 'Manage learning paths';
+$string['iomad_learningpath:view'] = 'View learning path';
+$string['learningpathedit'] = 'Edit learning path';
+$string['learningpathmanage'] = 'Learning path management';
+$string['learningpaths'] = 'Learning paths';
+$string['learningpathnameused'] = 'Name is already used by another learning path';
+$string['managecourses'] = 'Manage learning courses for \'{$a}\'.';
+$string['managestudents'] = 'Manage student assignments';
+$string['managetitle'] = 'Manage learning paths';
+$string['name'] = 'Name';
+$string['name_help'] = 'Learning Path name';
+$string['nocoursesingroup'] = 'No courses in this learning path section';
+$string['nocoursesinpath'] = 'No courses in this learning path';
+$string['nopath'] = 'Path is missing';
+$string['nopaths'] = 'No learning paths have been created';
+$string['nopathusers'] = 'No users assigned to learning path';
+$string['noprospectivecourses'] = 'No prospective courses';
+$string['noprospectiveusers'] = 'No prospective users';
+$string['notactive'] = 'Not active';
+$string['openeye'] = 'Make available';
+$string['pathcompany'] = 'Edit path for \'{$a}\'';
+$string['picture'] = 'Picture';
+$string['picture_help'] = 'Picture associated with learning path';
+$string['pluginname'] = 'IOMAD learning paths';
+$string['prospectivecourses'] = 'Prospective courses';
+$string['prospectivestudents'] = 'Prospective students';
+$string['removepath'] = 'Deleted - Learning path information';
+$string['selectedstudents'] = 'Selected student assignments';
+$string['sequential'] = 'Sequential';
+$string['sequential_'] = 'Courses in a sequential learning path section have to be undertaken in the order they are listed';
+$string['showcoursedescription'] = 'Show course description';
+$string['showcoursedescription_desc'] = 'Show full course description in learning plans';
+$string['showcoursename'] = 'Show course name';
+$string['showcoursename_desc'] = 'Level of detail in course name';
+$string['showprogress'] = 'Show progress';
+$string['showprogress_desc'] = 'Show progress in learning plans';
+$string['shortname'] = 'Shortname';
+$string['toomanyprospectiveusers'] = 'Too many prospective users. Specify a filter';
+$string['untitledgroup'] = 'Untitled section';

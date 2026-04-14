@@ -1,5 +1,4 @@
 <?php
-
 // This file is part of Moodle - http://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
@@ -16,19 +15,26 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Local language pack from https://learnpre.norm-uni.fr
+ * Strings for component 'block_iomad_onlineusers', language 'en', branch 'MOODLE_20_STABLE'
  *
- * @package    block
- * @subpackage iomad_onlineusers
- * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package   block_iomad_onlineusers
+ * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+ * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-defined('MOODLE_INTERNAL') || die();
-
-$string['configtimetosee'] = 'Nombre de minutes déterminant la période d\'inactivité après laquelle un utilisateur n\'est plus considéré comme étant en ligne.';
-$string['iomad_onlineusers:addinstance'] = 'Ajouter un nouveau bloc d\'utilisateurs en ligne Iomad';
-$string['iomad_onlineusers:myaddinstance'] = 'Ajouter un nouveau bloc d\'utilisateurs en ligne Iomad au tableau de bord des utilisateurs';
-$string['iomad_onlineusers:viewlist'] = 'Afficher la liste des utilisateurs en ligne';
-$string['periodnminutes'] = '{$a} dernières minutes';
-$string['pluginname'] = 'Utilisateurs d\'Iomad en ligne';
-$string['timetosee'] = 'Supprimer après inactivité (minutes)';
+$string['configtimetosee'] = 'Number of minutes determining the period of inactivity after which a user is no longer considered to be online.';
+$string['iomad_onlineusers:addinstance'] = 'Add a new IOMAD online users block';
+$string['iomad_onlineusers:myaddinstance'] = 'Add a new IOMAD online users block to user\'s dashboard';
+$string['iomad_onlineusers:viewlist'] = 'View list of online users';
+$string['nouser'] = 'No online users';
+$string['numuser'] = '{$a} online user';
+$string['numusers'] = '{$a} online users';
+$string['online_status:hide'] = 'Hide my online status from other users';
+$string['online_status:show'] = 'Show my online status to other users';
+$string['onlinestatushiding'] = 'Online status hiding';
+$string['onlinestatushiding_desc'] = 'If enabled, users have the option to hide their online status from other users.';
+$string['otherusers'] = 'Other users ({$a})';
+$string['periodnminutes'] = 'last {$a} minutes';
+$string['pluginname'] = 'IOMAD Online users';
+$string['privacy:metadata:preference:uservisibility'] = 'Online status visible to other users in the Online users block.';
+$string['timetosee'] = 'Remove after inactivity (minutes)';

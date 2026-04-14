@@ -1,5 +1,4 @@
 <?php
-
 // This file is part of Moodle - http://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
@@ -16,26 +15,28 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Local language pack from https://learnpre.norm-uni.fr
+ * Language file.
  *
- * @package    theme
- * @subpackage iomadbootstrap
- * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package   theme_iomadbootstrap
+ * @copyright 2018 Bas Brands
+ * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
+// This line protects the file from being accessed by a URL directly.
 defined('MOODLE_INTERNAL') || die();
 
-$string['choosereadme'] = 'IomadBootstrap est un thème hautement personnalisable, basé sur Boost, avec une disposition de navigation alternative. Ce thème est destiné à être utilisé directement ou en tant que thème parent lors de la création ou de la mise à jour de thèmes personnalisés pour utiliser Bootstrap 4.';
-$string['configtitle'] = 'IomadBootstrap';
-$string['navbardark'] = 'Utiliser une barre de navigation de style sombre';
-$string['navbardarkdesc'] = 'Permute les couleurs du texte et de l\'arrière-plan de la barre de navigation en haut de la page entre sombre et clair.';
-$string['pluginname'] = 'IomadBootstrap';
-$string['preset'] = 'Thème prédéfini';
-$string['presetfiles'] = 'Fichiers prédéfinis de thème supplémentaires';
-$string['presetfiles_desc'] = 'Les fichiers prédéfinis peuvent être utilisés pour modifier considérablement l\'apparence du thème. Voir <a href="https://docs.moodle.org/dev/Boost_Presets">Boost presets</a> pour plus d\'informations sur la création et le partage de vos propres fichiers de préréglages, et voir le <a href="https:// archive.moodle.net/boost">Référentiel de préréglages</a> pour les préréglages que d\'autres ont partagés.';
-$string['preset_desc'] = 'Choisissez un préréglage pour modifier largement l\'apparence du thème.';
-$string['privacy:metadata'] = 'Le thème IomadBootstrap ne stocke aucune donnée personnelle.';
-$string['region-side-post'] = 'Droite';
-$string['region-side-pre'] = 'Gauche';
-$string['sitetitle'] = 'Titre du site';
-$string['totop'] = 'Aller en haut';
+// Raw SCSS setting.
+$string['choosereadme'] = 'IOMAD Bootstrap is a highly-customisable theme, based on Boost, with an alternative navigation layout. This theme is intended to be used directly, or as a parent theme when creating or updating custom themes to utilise Bootstrap 4.';
+$string['configtitle'] = 'IOMAD Bootstrap';
+$string['navbardark'] = 'Use a dark style navbar';
+$string['navbardarkdesc'] = 'Swaps text and background colours for the navbar at the top of the page between dark and light.';
+$string['pluginname'] = 'IOMAD Bootstrap';
+$string['presetfiles'] = 'Additional theme preset files';
+$string['presetfiles_desc'] = 'Preset files can be used to dramatically alter the appearance of the theme. See <a href="https://docs.moodle.org/dev/Boost_Presets">Boost presets</a> for information on creating and sharing your own preset files, and see the <a href="https://moodle.net/search?q=boost+presets">Presets repository</a> for presets that others have shared.';
+$string['preset'] = 'Theme preset';
+$string['preset_desc'] = 'Pick a preset to broadly change the look of the theme.';
+$string['privacy:metadata'] = 'The IOMAD Bootstrap theme does not store any personal data.';
+$string['region-side-post'] = 'Right';
+$string['region-side-pre'] = 'Left';
+$string['sitetitle'] = 'Site title';
+$string['totop'] = 'Go to top';

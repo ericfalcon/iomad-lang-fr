@@ -1,5 +1,4 @@
 <?php
-
 // This file is part of Moodle - http://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
@@ -16,50 +15,46 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Local language pack from https://learnpre.norm-uni.fr
+ * Language file.
  *
- * @package    theme
- * @subpackage iomadboost
- * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package   theme_iomadboost
+ * @copyright 2016 Frédéric Massart
+ * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['advancedsettings'] = 'Réglages avancés';
-$string['backgroundimage'] = 'Image de fond';
-$string['backgroundimage_desc'] = 'L\'image à afficher en arrière-plan du site. L\'image d\'arrière-plan que vous téléchargez ici remplacera l\'image d\'arrière-plan dans vos fichiers de préréglage de thème.';
+$string['advancedsettings'] = 'Advanced settings';
+$string['backgroundimage'] = 'Background image';
+$string['backgroundimage_desc'] = 'The image to display as a background of the site. The background image you upload here will override the background image in your theme preset files.';
+$string['brandcolor'] = 'Brand colour';
+$string['brandcolor_desc'] = 'The accent colour.';
 $string['bootswatch'] = 'Bootswatch';
-$string['bootswatch_desc'] = 'Un bootswatch est un ensemble de variables Bootstrap et de css pour styliser Bootstrap';
-$string['brandcolor'] = 'Couleur de la marque';
-$string['brandcolor_desc'] = 'La couleur d\'accentuation.';
-$string['choosereadme'] = 'IomadBoost est un thème moderne hautement personnalisable. Ce thème est destiné à être utilisé directement ou en tant que thème parent lors de la création de nouveaux thèmes à l\'aide de Bootstrap 4.';
-$string['configtitle'] = 'IomadBoost';
-$string['currentinparentheses'] = '(actuel)';
-$string['generalsettings'] = 'Réglages généraux';
-$string['loginbackgroundimage'] = 'Image d’arrière-plan de la page de connexion';
-$string['loginbackgroundimage_desc'] = 'L\'image à afficher comme arrière-plan de la page de connexion.';
-$string['nobootswatch'] = 'Aucun';
-$string['pluginname'] = 'IomadBoost';
-$string['preset'] = 'Thème prédéfini';
-$string['presetfiles'] = 'Fichiers prédéfinis de thème supplémentaires';
-$string['presetfiles_desc'] = 'Les fichiers prédéfinis peuvent être utilisés pour modifier considérablement l\'apparence du thème. Voir <a href="https://docs.moodle.org/dev/IomadBoost_Presets">Préréglages IomadBoost</a> pour plus d\'informations sur la création et le partage de vos propres fichiers de préréglages, et voir le <a href="https:// archive.moodle.net/iomadboost">Référentiel de préréglages</a> pour les préréglages que d\'autres ont partagés.';
-$string['preset_desc'] = 'Choisissez un préréglage pour modifier largement l\'apparence du thème.';
-$string['privacy:drawerblockclosed'] = 'La préférence actuelle pour le tiroir de blocs est fermée.';
-$string['privacy:drawerblockopen'] = 'La préférence actuelle pour le tiroir de blocs est ouverte.';
-$string['privacy:drawerindexclosed'] = 'La préférence actuelle pour le tiroir d\'index est fermée.';
-$string['privacy:drawerindexopen'] = 'La préférence actuelle pour le tiroir d\'index est ouverte.';
-$string['privacy:drawernavclosed'] = 'La préférence actuelle pour le tiroir de navigation est fermée.';
-$string['privacy:drawernavopen'] = 'La préférence actuelle pour le tiroir de navigation est ouverte.';
-$string['privacy:metadata'] = 'Le thème IomadBoost ne stocke aucune donnée personnelle sur un utilisateur.';
-$string['privacy:metadata:preference:draweropenblock'] = 'La préférence de l\'utilisateur pour masquer ou afficher le tiroir avec des blocs.';
-$string['privacy:metadata:preference:draweropenindex'] = 'La préférence de l\'utilisateur pour masquer ou afficher le tiroir avec l\'index des cours.';
-$string['privacy:metadata:preference:draweropennav'] = 'La préférence de l\'utilisateur pour masquer ou afficher la navigation du menu du tiroir.';
-$string['rawscss'] = 'SCSS brut';
-$string['rawscsspre'] = 'SCSS initial brut';
-$string['rawscsspre_desc'] = 'Dans ce champ, vous pouvez fournir le code SCSS d\'initialisation, il sera injecté avant tout le reste. La plupart du temps, vous utiliserez ce paramètre pour définir des variables.';
-$string['rawscss_desc'] = 'Utilisez ce champ pour fournir le code SCSS ou CSS qui sera injecté à la fin de la feuille de style.';
-$string['region-side-pre'] = 'Droite';
-$string['showfooter'] = 'Afficher le pied de page';
-$string['totop'] = 'Aller en haut';
-$string['unaddableblocks'] = 'Blocs inutiles';
-$string['unaddableblocks_desc'] = 'Les blocs spécifiés ne sont pas nécessaires lors de l\'utilisation de ce thème et ne seront pas répertoriés dans le menu « Ajouter un bloc ».';
+$string['bootswatch_desc'] = 'A bootswatch is a set of Bootstrap variables and css to style Bootstrap';
+$string['choosereadme'] = 'IOMAD Boost is a modern highly-customisable theme. This theme is intended to be used directly, or as a parent theme when creating new themes utilising Bootstrap 4.';
+$string['configtitle'] = 'IOMAD Boost';
+$string['generalsettings'] = 'General settings';
+$string['loginbackgroundimage'] = 'Login page background image';
+$string['loginbackgroundimage_desc'] = 'The image to display as a background for the login page.';
+$string['nobootswatch'] = 'None';
+$string['pluginname'] = 'IOMAD Boost';
+$string['presetfiles'] = 'Additional theme preset files';
+$string['presetfiles_desc'] = 'Preset files can be used to dramatically alter the appearance of the theme. See <a href="https://docs.moodle.org/dev/IOMAD Boost_Presets">IOMAD Boost presets</a> for information on creating and sharing your own preset files, and see the <a href="https://moodle.net/search?q=iomadboost+presets">Presets repository</a> for presets that others have shared.';
+$string['preset'] = 'Theme preset';
+$string['preset_desc'] = 'Pick a preset to broadly change the look of the theme.';
+$string['privacy:metadata'] = 'The IOMAD Boost theme does not store any personal data about any user.';
+$string['rawscss'] = 'Raw SCSS';
+$string['rawscss_desc'] = 'Use this field to provide SCSS or CSS code which will be injected at the end of the style sheet.';
+$string['rawscsspre'] = 'Raw initial SCSS';
+$string['rawscsspre_desc'] = 'In this field you can provide initialising SCSS code, it will be injected before everything else. Most of the time you will use this setting to define variables.';
+$string['region-side-pre'] = 'Right';
+$string['showfooter'] = 'Show footer';
+$string['unaddableblocks'] = 'Unneeded blocks';
+$string['unaddableblocks_desc'] = 'The blocks specified are not needed when using this theme and will not be listed in the \'Add a block\' menu.';
+$string['privacy:metadata:preference:draweropenblock'] = 'The user\'s preference for hiding or showing the drawer with blocks.';
+$string['privacy:metadata:preference:draweropenindex'] = 'The user\'s preference for hiding or showing the drawer with course index.';
+$string['privacy:metadata:preference:draweropennav'] = 'The user\'s preference for hiding or showing the drawer menu navigation.';
+$string['privacy:drawerindexclosed'] = 'The current preference for the index drawer is closed.';
+$string['privacy:drawerindexopen'] = 'The current preference for the index drawer is open.';
+$string['privacy:drawerblockclosed'] = 'The current preference for the block drawer is closed.';
+$string['privacy:drawerblockopen'] = 'The current preference for the block drawer is open.';
