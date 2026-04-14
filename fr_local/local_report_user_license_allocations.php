@@ -1,5 +1,4 @@
 <?php
-
 // This file is part of Moodle - http://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
@@ -16,58 +15,58 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Local language pack from https://learnpre.norm-uni.fr
+ * IOMAD user license allocations report language strings
  *
- * @package    local
- * @subpackage report_user_license_allocations
- * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package   local_report_user_license_allocations
+ * @copyright 2021 Derick Turner
+ * @author    Derick Turner
+ * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-defined('MOODLE_INTERNAL') || die();
-
 $string['actions'] = 'Actions';
-$string['allocated'] = 'Attribué : {$a}';
-$string['blocktitle'] = 'Rapport d\'attribution des licences utilisateur';
-$string['certificate'] = 'Certificat';
-$string['clear'] = 'Effacer';
-$string['clearconfirm'] = 'L\'utilisateur sera retiré du cours et toutes ses données seront supprimées. Ils auront tout de même une licence pour reprendre le cours. Es-tu sûr de vouloir faire ça?';
-$string['completed'] = 'Complété';
-$string['coursedetails'] = 'rapport de cours complet';
-$string['dateallocated'] = 'Date d\'attribution';
-$string['datecompleted'] = 'Date d\'achèvement';
-$string['datestarted'] = 'Cours attribué/commencé';
-$string['dateunallocated'] = 'Date de non-attribution';
-$string['deleteconfirm'] = 'L\'utilisateur sera retiré du cours, toutes ses données seront supprimées et toutes les licences seront réattribuées. Ça ne peut pas être annulé. Es-tu sûr?';
-$string['department'] = 'Département';
-$string['detail'] = 'Détails';
-$string['downloadcert'] = 'Voir le certificat au format PDF';
-$string['inprogress'] = 'En cours';
-$string['licenseallocated'] = 'Licence attribuée';
-$string['nocerttodownload'] = 'Certificat non obtenu';
-$string['nofurtherdetail'] = 'Aucun autre détail à afficher';
-$string['notstarted'] = 'Pas commencé';
-$string['pluginname'] = 'Rapport sur les attributions de licences utilisateur';
-$string['privacy:metadata:local_report_user_lic_allocs'] = 'Rapport  local sur les attributions de licences utilisateur, informations utilisateur';
-$string['privacy:metadata:local_report_user_lic_allocs:action'] = 'Action d\'attribution';
-$string['privacy:metadata:local_report_user_lic_allocs:courseid'] = 'Identifiant du cours';
-$string['privacy:metadata:local_report_user_lic_allocs:id'] = 'Rapport  local sur les attributions de licences utilisateur, identifiant utilisateur';
-$string['privacy:metadata:local_report_user_lic_allocs:issuedate'] = 'Horodatage unix du problème de licence';
-$string['privacy:metadata:local_report_user_lic_allocs:licenseid'] = 'Identifiant de la licence';
-$string['privacy:metadata:local_report_user_lic_allocs:userid'] = 'Identifiant de l\'utilisateur';
-$string['report_user_license_allocations:view'] = 'Afficher le rapport sur les attributions de licences utilisateur';
-$string['report_user_license_allocations_title'] = 'Rapport sur les attributions de licences utilisateur';
-$string['repuserlicallocation'] = 'Rapport sur les attributions de licences utilisateur';
-$string['scormattempts'] = 'Nombre de Tentatives';
-$string['scormnotstarted'] = 'Utilisateur inscrit au cours. Module non démarré';
-$string['scormquestion'] = 'Identifiant de la question';
-$string['scormresult'] = 'Résultat';
-$string['scormresults'] = 'Résultat';
-$string['scormtimestarted'] = 'Commencé le';
-$string['scormtype'] = 'Type de question';
-$string['totalallocate'] = 'Nombre d\'attributions';
-$string['totalunallocate'] = 'Nombre de non-attribution';
-$string['unallocated'] = 'Non attribué : {$a}';
-$string['usercoursedetails'] = 'Détails de l\'utilisateur';
-$string['userdetails'] = 'Rapport d\'informations pour';
-$string['user_detail_title'] = 'Rapports d\'utilisateurs';
-$string['viewfullcourse'] = 'Voir le résumé complet du cours';
+$string['allocated'] = 'Allocated: {$a}';
+$string['blocktitle'] = 'User license allocations report';
+$string['certificate'] = 'Certificate';
+$string['clear'] = 'Clear';
+$string['clearconfirm'] = 'User will be removed from the course and all of their data will be deleted. They will still have a license to restart the course. Are you sure you want to do this?';
+$string['completed'] = 'Completed';
+$string['coursedetails'] = 'Full course report';
+$string['dateallocated'] = 'Date allocated';
+$string['datecompleted'] = 'Date completed';
+$string['datestarted'] = 'Course allocated/started';
+$string['dateunallocated'] = 'Date unallocated';
+$string['deleteconfirm'] = 'User will be removed from the course, all their data will be deleted, and any licenses re-allocated. This cannot be undone. Are you sure?';
+$string['department'] = 'Department';
+$string['detail'] = 'Detail';
+$string['downloadcert'] = 'View certificate as PDF';
+$string['inprogress'] = 'In progress';
+$string['licenseallocated'] = 'License allocated';
+$string['nocerttodownload'] = 'Certificate not achieved';
+$string['nofurtherdetail'] = 'No further details to show';
+$string['notstarted'] = 'Not started';
+$string['pluginname'] = 'User license allocations report';
+$string['privacy:metadata:local_report_user_lic_allocs'] = 'Local report user license allocation user information';
+$string['privacy:metadata:local_report_user_lic_allocs:action'] = 'Allocation action';
+$string['privacy:metadata:local_report_user_lic_allocs:courseid'] = 'Course ID';
+$string['privacy:metadata:local_report_user_lic_allocs:id'] = 'Local report user license allocation record ID';
+$string['privacy:metadata:local_report_user_lic_allocs:issuedate'] = 'License issue Unix timestamp';
+$string['privacy:metadata:local_report_user_lic_allocs:licenseid'] = 'License ID';
+$string['privacy:metadata:local_report_user_lic_allocs:userid'] = 'User ID';
+$string['report_user_license_allocations:view'] = 'View the user license allocations report';
+$string['report_user_license_allocations_title'] = 'User license allocations report';
+$string['repuserlicallocation'] = 'User license allocations report';
+$string['scormattempts'] = 'Number of attempts';
+$string['scormnotstarted'] = 'User enroled on course - Module not started';
+$string['scormquestion'] = 'Question ID';
+$string['scormresult'] = 'Result';
+$string['scormresults'] = 'Result';
+$string['scormscore'] = 'Score';
+$string['scormtimestarted'] = 'Started on';
+$string['scormtype'] = 'Question type';
+$string['totalallocate'] = 'Number of allocations';
+$string['totalunallocate'] = 'Number of unallocations';
+$string['unallocated'] = 'Unallocated: {$a}';
+$string['user_detail_title'] = 'User reports';
+$string['usercoursedetails'] = 'User details';
+$string['userdetails'] = 'Report information for ';
+$string['viewfullcourse'] = 'View complete summary for course';

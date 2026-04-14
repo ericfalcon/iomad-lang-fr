@@ -1,5 +1,4 @@
 <?php
-
 // This file is part of Moodle - http://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
@@ -16,23 +15,22 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Local language pack from https://learnpre.norm-uni.fr
+ * Strings for local_report_license_usage
  *
- * @package    local
- * @subpackage report_license_usage
- * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package   local_report_license_usage
+ * @copyright 2021 Derick Turner
+ * @author    Derick Turner
+ * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-defined('MOODLE_INTERNAL') || die();
-
-$string['blocktitle'] = 'Rapport sur les licences attribuées';
-$string['numnet'] = 'Attribution nette';
-$string['numstart'] = 'Préalablement attribué';
-$string['numtotal'] = 'Total attribué';
-$string['pluginname'] = 'Rapport sur les licences attribuées';
-$string['privacy:metadata'] = 'Le rapport d\'allocations de licences Iomad locales affiche uniquement les données stockées dans d\'autres emplacements.';
-$string['report_license_usage:view'] = 'Afficher le rapport sur les licences attribuées';
-$string['report_license_usage_title'] = 'Rapport sur les licences attribuées';
-$string['repuserlicallocation'] = 'Rapport sur les licences attribuées';
-$string['totalallocate'] = 'Nombre d\'attributions';
-$string['totalunallocate'] = 'Nombre de non-attribution';
+$string['blocktitle'] = 'License Allocations Report';
+$string['numnet'] = 'Net allocations';
+$string['numstart'] = 'Previously allocated';
+$string['numtotal'] = 'Total allocated';
+$string['pluginname'] = 'License Allocations Report';
+$string['privacy:metadata'] = 'The \'Local IOMAD license allocations report\' only shows data stored in other locations.';
+$string['report_license_usage:view'] = 'View the license allocations report';
+$string['report_license_usage_title'] = 'License allocations report';
+$string['repuserlicallocation'] = 'License allocations report';
+$string['totalallocate'] = 'Number of allocations';
+$string['totalunallocate'] = 'Number of unallocations';
