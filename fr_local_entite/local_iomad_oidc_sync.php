@@ -1,54 +1,26 @@
 <?php
-// This file is part of Moodle - http://moodle.org/
-//
-// Moodle is free software: you can redistribute it and/or modify
-// it under the terms of the GNU General Public License as published by
-// the Free Software Foundation, either version 3 of the License, or
-// (at your option) any later version.
-//
-// Moodle is distributed in the hope that it will be useful,
-// but WITHOUT ANY WARRANTY; without even the implied warranty of
-// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-// GNU General Public License for more details.
-//
-// You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+defined('MOODLE_INTERNAL') || die();
 
-/**
- * Plugin language strings
- *
- * @package   local_iomad_oidc_sync
- * @copyright 2024 Derick Turner
- * @author    Derick Turner
- * Based on code provided by Jacob Kindle @ Cofense https://cofense.com/
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
- */
-
-/**
- * Strings for component 'local_iomad_oidc_sync', language 'en'
- */
-
-$string['agreeconsent'] = 'Consent';
-$string['approvalset'] = 'Approval of IOMAD OIDC sync granted successfully';
-$string['boilerplate'] = 'To set up the OIDC sync tasks you must first provide your TENANTNAME or GUID and then click on the appoval link.  Once you have approved, if the connection is not showing as green, click on the red-cross to check.';
-$string['configerror'] = 'Invalid configuration detected.';
-$string['configlogs'] = 'Config logs';
-$string['consent_title'] = 'IOMAD OIDC sync company consent';
-$string['consentlink'] = 'Submit consent with Microsoft';
-$string['graphproperties'] = 'MS Graph user select fields';
-$string['graphproperties_help'] = "By default, only a limited set of properties are returned (businessPhones, displayName, givenName, id, jobTitle, mail, mobilePhone, officeLocation, preferredLanguage, surname, userPrincipalName).<br>
-To return an alternative property set, you can specify the desired set of user properties in a comma separated list without spaces. For example, to return <b>only</b> displayName, givenName, and postalCode, set this value to <i>displayName,givenName,postalCode</i>.";
-$string['iomad_oidc_sync:manage'] = 'Manage IOMAD OIDC sync settings';
-$string['iomad_oidc_sync:view'] = 'View the IOMAD OIDC sync status';
-$string['loglink'] = 'View Config log';
-$string['managermapping'] = '<b>NOTE</b> - If you are mapping local fields to the remote manager object, then please use the format <b>manager.<i>field</i></b> as the mapping value. E.g. <b>manager.mail</b>';
-$string['oidc_sync_task'] = 'IOMAD OIDC sync task';
-$string['pluginname'] = 'IOMAD OIDC sync';
-$string['privacy:metadata'] = 'The IOMAD OIDC sync plugin only shows data stored in other locations.';
-$string['settenantnameorguid'] = 'Set the Tenant name or GUID';
-$string['syncgroupid'] = 'Optional object ID of the group to be synchronised”';
-$string['tenantnameorguid'] = 'Tenant name or GUID';
-$string['tenantnameorguid_changed_success'] = 'Company options saved successfully';
-$string['tenantnameorguid_changed_warning'] = 'Company options saved successfully.<br>Due to the change in Tenant name or GUID value, you may need to go through the approval process again';
-$string['unsuspendonsync'] = 'Un-suspend existing users';
-$string['useroptions'] = 'With removed users we';
+$string['agreeconsent'] = 'Donner son consentement';
+$string['approvalset'] = 'Autorisation de synchronisation IOMAD OIDC accordée avec succès';
+$string['boilerplate'] = 'Pour configurer les tâches de synchronisation OIDC, vous devez d’abord fournir le NOM DU TENANT ou le GUID, puis cliquer sur le lien d’autorisation. Une fois l’autorisation accordée, si la connexion ne s’affiche pas en vert, cliquez sur la croix rouge pour vérifier l’état.';
+$string['configerror'] = 'Configuration invalide détectée.';
+$string['configlogs'] = 'Journaux de configuration';
+$string['consent_title'] = 'Consentement de synchronisation OIDC de l’entité';
+$string['consentlink'] = 'Soumettre le consentement via Microsoft';
+$string['graphproperties'] = 'Champs utilisateur sélectionnés via Microsoft Graph';
+$string['graphproperties_help'] = 'Par défaut, seul un ensemble limité de propriétés est retourné (businessPhones, displayName, givenName, id, jobTitle, mail, mobilePhone, officeLocation, preferredLanguage, surname, userPrincipalName).<br> Pour retourner un autre ensemble de propriétés, vous pouvez spécifier la liste souhaitée sous forme de valeurs séparées par des virgules, sans espaces. Par exemple, pour retourner <b>uniquement</b> displayName, givenName et postalCode, définissez cette valeur sur <i>displayName,givenName,postalCode</i>.';
+$string['iomad_oidc_sync:manage'] = 'Gérer les paramètres de synchronisation OIDC IOMAD';
+$string['iomad_oidc_sync:view'] = 'Afficher l’état de la synchronisation OIDC IOMAD';
+$string['loglink'] = 'Afficher le journal de configuration';
+$string['managermapping'] = '<b>REMARQUE</b> – Si vous associez des champs locaux à l’objet manager distant, veuillez utiliser le format <b>manager.<i>champ</i></b> comme valeur d’association. Par exemple : <b>manager.mail</b>.';
+$string['oidc_sync_task'] = 'Tâche de synchronisation OIDC IOMAD';
+$string['pluginname'] = 'Synchronisation OIDC IOMAD';
+$string['privacy:metadata'] = 'Le plugin de synchronisation OIDC IOMAD affiche uniquement des données stockées dans d’autres emplacements.';
+$string['settenantnameorguid'] = 'Définir le nom du tenant ou le GUID';
+$string['syncgroupid'] = 'Identifiant facultatif de l’objet groupe à synchroniser';
+$string['tenantnameorguid'] = 'Nom du tenant ou GUID';
+$string['tenantnameorguid_changed_success'] = 'Les options de l’entité ont été enregistrées avec succès';
+$string['tenantnameorguid_changed_warning'] = 'Les options de l’entité ont été enregistrées avec succès.<br> En raison de la modification du nom du tenant ou du GUID, vous devrez peut‑être passer à nouveau par le processus d’autorisation.';
+$string['unsuspendonsync'] = 'Réactiver les utilisateurs existants lors de la synchronisation';
+$string['useroptions'] = 'Concernant les utilisateurs supprimés, nous';
