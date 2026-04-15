@@ -1,4 +1,3 @@
-cat > campus.map << 'EOF'
 Entités=Campus
 entités=campus
 Entité=Campus
@@ -9,4 +8,3 @@ Département=Filière
 département=filière
 Sous-départements=Sous-filières
 sous-départements=sous-filières
-EOF
