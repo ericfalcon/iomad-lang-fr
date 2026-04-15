@@ -1,5 +1,4 @@
 <?php
-
 // This file is part of Moodle - http://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
@@ -16,7 +15,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Local language pack from https://learnpre.norm-uni.fr
+ * Strings for component 'local_template_selector', language 'fr'
  *
  * @package    local
  * @subpackage template_selector
@@ -24,21 +23,20 @@
  */
 
 defined('MOODLE_INTERNAL') || die();
-
-$string['cannotcallusgetselectedtemplate'] = 'Vous ne pouvez pas appeler template_selector::get_selected_template si la sélection multiple est vraie.';
+$string['cannotcallusgetselectedtemplate'] = 'Vous ne pouvez pas appeler template_selector::get_selected_template lorsque la sélection multiple est activée.';
 $string['clear'] = 'Effacer';
-$string['nomatchingtemplates'] = 'Aucun modèle ne correspond à \'{$a}\\';
+$string['nomatchingtemplates'] = 'Aucun modèle ne correspond à « {$a} »';
 $string['none'] = 'Aucun';
-$string['pleasesearchmore'] = 'Veuillez rechercher un peu plus';
+$string['pleasesearchmore'] = 'Veuillez affiner votre recherche';
 $string['pleaseusesearch'] = 'Veuillez utiliser la recherche';
-$string['pluginname'] = 'Sélecteurs de modèles';
-$string['previouslyselectedtemplates'] = 'Les modèles précédemment sélectionnés ne correspondent pas à \'{$a}\\';
-$string['privacy:metadata'] = 'Le plug-in de sélecteurs de modèles Location Iomad affiche uniquement les données stockées dans d\'autres emplacements.';
-$string['search'] = 'Chercher';
+$string['pluginname'] = 'Sélecteur de modèles';
+$string['previouslyselectedtemplates'] = 'Les modèles précédemment sélectionnés ne correspondent pas à « {$a} »';
+$string['privacy:metadata'] = 'Le plugin local IOMAD de sélection de modèles n’enregistre aucune donnée personnelle.';
+$string['search'] = 'Rechercher';
 $string['searchoptions'] = 'Options de recherche';
-$string['templateselectorautoselectunique'] = 'Si un seul modèle correspond à la recherche, sélectionnez-le automatiquement';
-$string['templateselectorpreserveselected'] = 'Conserver les modèles sélectionnés, même s\'ils ne correspondent plus à la recherche';
-$string['templateselectorsearchanywhere'] = 'Faites correspondre le texte de recherche n\'importe où dans le nom du modèle';
-$string['templateselectortoomany'] = 'template_selector a obtenu plus d\'un modèle sélectionné, même si multiselect est faux.';
-$string['toomanytemplatesmatchsearch'] = 'Trop de modèles ({$a->count}) correspondent à \'{$a->search}\\';
-$string['toomanytemplatestoshow'] = 'Trop de modèles ({$a}) à afficher';
+$string['templateselectorautoselectunique'] = 'Sélectionner automatiquement le modèle s’il est le seul à correspondre à la recherche';
+$string['templateselectorpreserveselected'] = 'Conserver les modèles sélectionnés, même s’ils ne correspondent plus à la recherche';
+$string['templateselectorsearchanywhere'] = 'Faire correspondre le texte recherché n’importe où dans le nom du modèle';
+$string['templateselectortoomany'] = 'Le sélecteur de modèles a retourné plusieurs modèles sélectionnés alors que la sélection multiple est désactivée.';
+$string['toomanytemplatesmatchsearch'] = 'Trop de modèles ({$a->count}) correspondent à « {$a->search} »';
+$string['toomanytemplatestoshow'] = 'Trop de modèles à afficher ({$a})';

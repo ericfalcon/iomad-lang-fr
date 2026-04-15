@@ -1,5 +1,4 @@
 <?php
-
 // This file is part of Moodle - http://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
@@ -15,20 +14,11 @@
 // You should have received a copy of the GNU General Public License
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
-/**
- * Local language pack from https://learnpre.norm-uni.fr
- *
- * @package    block
- * @subpackage iomad_reports
- * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
- */
-
 defined('MOODLE_INTERNAL') || die();
-
-$string['iomad_reports:addinstance'] = 'Ajouter un nouveau bloc Rapports Iomad';
-$string['iomad_reports:myaddinstance'] = 'Ajouter un nouveau bloc Rapports Iomad  au tableau de bord des utilisateurs';
-$string['iomad_reports:view'] = 'Accès aux rapports Iomad';
-$string['link'] = 'Accéder au tableau de bord Iomad';
-$string['nocompanyselected'] = 'Aucune entreprise n\'est sélectionnée';
-$string['pluginname'] = 'Rapports Iomad';
-$string['privacy:metadata'] = 'Le bloc de sélection d\'entreprise Iomad affiche uniquement les données stockées dans d\'autres emplacements.';
+$string['iomad_reports:addinstance'] = 'Ajouter un nouveau bloc Rapports IOMAD';
+$string['iomad_reports:myaddinstance'] = 'Ajouter un nouveau bloc Rapports IOMAD au tableau de bord des utilisateurs';
+$string['iomad_reports:view'] = 'Accéder aux rapports IOMAD';
+$string['link'] = 'Accéder au tableau de bord IOMAD';
+$string['nocompanyselected'] = 'Aucune entité n’est sélectionnée';
+$string['pluginname'] = 'Rapports IOMAD';
+$string['privacy:metadata'] = 'Le bloc Rapports IOMAD affiche uniquement des données stockées dans d’autres composants.';

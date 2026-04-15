@@ -27,4 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['blocktitle'] = 'Rapports d\' e-mail';
 $string['pluginname'] = 'rapports d\'e-mail';
-$string['privacy:metadata'] = 'Le plug-in Local Iomad  de rapports d\'e-mail affiche uniquement les données stockées dans d\'autres emplacements.';
+$string['privacy:metadata'] = 'Le plug-in Local Iomad de rapports d\'e-mail affiche uniquement les données stockées dans d\'autres emplacements.';

@@ -1,5 +1,4 @@
 <?php
-
 // This file is part of Moodle - http://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
@@ -16,7 +15,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Local language pack from https://learnpre.norm-uni.fr
+ * Strings for component 'tool_iomadsite', language 'fr'
  *
  * @package    tool
  * @subpackage iomadsite
@@ -25,9 +24,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['doit'] = 'D\'accord. Vas-y!';
-$string['explanation'] = 'L\'outil génère de fausses données pour un site Iomad. Il ne peut être exécuté que par l\'administrateur en mode Débogage. Ceci est uniquement pour les sites de test. Cela détruira complètement un site existant.';
-$string['makesite'] = 'Faire un faux site de développement IOMAD';
-$string['notdebugging'] = 'Le mode de débogage du développeur est requis pour exécuter cet outil';
-$string['pluginname'] = 'Générateur de données de développement Iomad';
-$string['privacy:metadata'] = 'L\'outil d\'administration du générateur de site Iomad affiche uniquement les données stockées dans d\'autres emplacements.';
+$string['doit'] = 'Confirmer l’exécution';
+$string['explanation'] = 'Cet outil génère des données fictives pour un site IOMAD. Il ne peut être exécuté que par un administrateur lorsque le mode débogage développeur est activé. Il est strictement destiné aux environnements de test et détruira entièrement toute instance existante.';
+$string['makesite'] = 'Créer un site de développement IOMAD fictif';
+$string['notdebugging'] = 'Le mode débogage développeur doit être activé pour exécuter cet outil.';
+$string['pluginname'] = 'Générateur de site de développement IOMAD';
+$string['privacy:metadata'] = 'L’outil de génération de site IOMAD ne stocke aucune donnée personnelle.';

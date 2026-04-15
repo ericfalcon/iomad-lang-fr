@@ -1,5 +1,4 @@
 <?php
-
 // This file is part of Moodle - http://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
@@ -15,22 +14,14 @@
 // You should have received a copy of the GNU General Public License
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
-/**
- * Local language pack from https://learnpre.norm-uni.fr
- *
- * @package    block
- * @subpackage iomad_company_selector
- * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
- */
-
 defined('MOODLE_INTERNAL') || die();
 
-$string['currentcompany'] = 'L\'entreprise actuelle est';
-$string['currentcompanyname'] = 'Entreprise actuelle, <b>\'{$a}\'</b>';
-$string['iomad_company_selector:addinstance'] = 'Ajouter un nouveau bloc IOMAD de sélection de société';
-$string['iomad_company_selector:myaddinstance'] = 'Ajouter un nouveau bloc IOMAD de sélection de société au tableau de bord des utilisateurs';
-$string['nocurrentcompany'] = 'Veuillez sélectionner une entreprise dans la liste déroulante';
-$string['pluginname'] = 'iomad - Sélecteur d\'entreprise';
-$string['privacy:metadata'] = 'Le bloc IOMAD de sélection de société  affiche uniquement les données stockées à d’autres emplacements.';
-$string['selectacompany'] = 'Sélectionnez une entreprise';
-$string['title'] = 'Sélection de l\'entreprise';
+$string['currentcompany'] = 'L’entité actuelle est';
+$string['currentcompanyname'] = 'Entité actuelle, <b>\'{$a}\'</b>';
+$string['iomad_company_selector:addinstance'] = 'Ajouter un nouveau bloc IOMAD de sélection d’entité';
+$string['iomad_company_selector:myaddinstance'] = 'Ajouter un nouveau bloc IOMAD de sélection d’entité au tableau de bord des utilisateurs';
+$string['nocurrentcompany'] = 'Veuillez sélectionner une entité dans la liste déroulante';
+$string['pluginname'] = 'IOMAD – Sélecteur d’entité';
+$string['privacy:metadata'] = 'Le bloc IOMAD de sélection d’entité affiche uniquement des données stockées dans d’autres composants.';
+$string['selectacompany'] = 'Sélectionnez une entité';
+$string['title'] = 'Sélection de l’entité';

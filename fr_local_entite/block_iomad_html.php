@@ -1,5 +1,4 @@
 <?php
-
 // This file is part of Moodle - http://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
@@ -15,25 +14,17 @@
 // You should have received a copy of the GNU General Public License
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
-/**
- * Local language pack from https://learnpre.norm-uni.fr
- *
- * @package    block
- * @subpackage iomad_html
- * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
- */
-
 defined('MOODLE_INTERNAL') || die();
 
 $string['allowadditionalcssclasses'] = 'Autoriser des classes CSS supplémentaires';
 $string['configallowadditionalcssclasses'] = 'Ajoute une option de configuration aux instances de blocs HTML permettant de définir des classes CSS supplémentaires.';
 $string['configclasses'] = 'Classes CSS supplémentaires';
-$string['configclasses_help'] = 'Le but de cette configuration est d\'aider à la thématisation en aidant à distinguer les blocs HTML les uns des autres. Toutes les classes CSS saisies ici (espace délimité) seront ajoutées aux classes par défaut du bloc.';
+$string['configclasses_help'] ='Le but de cette configuration est d’aider à la personnalisation de l’interface en distinguant les blocs HTML. Toutes les classes CSS saisies ici (séparées par des espaces) seront ajoutées aux classes par défaut du bloc.';
 $string['configcontent'] = 'Contenu';
 $string['configtitle'] = 'Titre du bloc';
-$string['iomad_html:addinstance'] = 'Ajouter un nouveau bloc HTML d\'entreprise';
-$string['iomad_html:myaddinstance'] = 'Ajouter un nouveau bloc HTML d\'entreprise au tableau de bord';
-$string['leaveblanktohide'] = 'laisser vide pour masquer le titre';
-$string['newiomad_htmlblock'] = '(nouveau bloc HTML d\'entreprise)';
+$string['iomad_html:addinstance'] = 'Ajouter un nouveau bloc HTML d’entité';
+$string['iomad_html:myaddinstance'] = 'Ajouter un nouveau bloc HTML d’entité au tableau de bord';
+$string['leaveblanktohide'] = 'Laisser vide pour masquer le titre';
+$string['newiomad_htmlblock'] = '(nouveau bloc HTML d’entité)';
 $string['pluginname'] = 'IOMAD HTML';
-$string['privacy:metadata'] = 'Le bloc HTML IOMAD affiche uniquement les données stockées à d\'autres emplacements.';
+$string['privacy:metadata'] = 'Le bloc HTML IOMAD affiche uniquement des données stockées dans d’autres composants.';

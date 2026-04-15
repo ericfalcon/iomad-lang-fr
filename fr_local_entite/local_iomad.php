@@ -1,5 +1,4 @@
 <?php
-
 // This file is part of Moodle - http://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
@@ -16,7 +15,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Local language pack from https://learnpre.norm-uni.fr
+ * Strings for component 'local_iomad', language 'fr'
  *
  * @package    local
  * @subpackage iomad
@@ -24,45 +23,44 @@
  */
 
 defined('MOODLE_INTERNAL') || die();
-
-$string['cachedef_allcompanycategories'] = 'Cache pour contenir les catégories auxquelles toute entreprise a accès.';
-$string['cachedef_companycategories'] = 'Cache pour contenir les catégories attribuées à une entreprise.';
-$string['cachedef_companycoursecategories'] = 'Cache pour contenir les catégories auxquelles une entreprise a accès.';
-$string['cannotemailnontemporarypasswords'] = 'Il n\'est pas sûr d\'envoyer des mots de passe par e-mail sans forcer leur modification lors de la première connexion.';
-$string['companycityfilter'] = 'L\'emplacement de l\'entreprise contient';
-$string['companycountryfilter'] = 'Le pays de l\'entreprise contient';
-$string['companycourses'] = 'Autres cours de l\'entreprise';
+$string['cachedef_allcompanycategories'] = 'Cache pour contenir les catégories auxquelles toutes les entités ont accès.';
+$string['cachedef_companycategories'] = 'Cache pour contenir les catégories attribuées à une entité.';
+$string['cachedef_companycoursecategories'] = 'Cache pour contenir les catégories auxquelles une entité a accès.';
+$string['cannotemailnontemporarypasswords'] = 'Il n’est pas sécurisé d’envoyer des mots de passe par e-mail sans forcer leur modification lors de la première connexion.';
+$string['companycityfilter'] = 'La ville de l’entité contient';
+$string['companycountryfilter'] = 'Le pays de l’entité contient';
+$string['companycourses'] = 'Autres cours de l’entité';
 $string['companyfilter'] = 'Filtrer les résultats';
-$string['companynamefilter'] = 'Le nom de l\'entreprise contient';
-$string['companysearchfields'] = 'Champs de recherche d\'entreprise';
-$string['crontask'] = 'Iomad Cron';
-$string['emailfilter'] = 'L\'adresse courriel contient';
+$string['companynamefilter'] = 'Le nom de l’entité contient';
+$string['companysearchfields'] = 'Champs de recherche d’entité';
+$string['crontask'] = 'Tâche cron IOMAD';
+$string['emailfilter'] = 'L’adresse e-mail contient';
 $string['firstnamefilter'] = 'Le prénom contient';
-$string['iomad'] = 'Iomad';
+$string['iomad'] = 'IOMAD';
 $string['lastnamefilter'] = 'Le nom contient';
-$string['missingaccesstocourse'] = 'Vous n\'êtes pas autorisé à cela.';
-$string['nopermissions'] = 'L\'administrateur Iomad ne vous a pas autorisé à le faire.';
-$string['pluginname'] = 'Iomad';
-$string['privacy:metadata'] = 'Le plugin Local Iomad affiche uniquement les données stockées dans d\'autres emplacements.';
-$string['privacy:metadata:companylicense_users'] = 'Utilisateurs de licence d\'entreprise';
-$string['privacy:metadata:companylicense_users:groupid'] = 'ID du groupe d\'utilisateurs de la licence d\'entreprise';
-$string['privacy:metadata:companylicense_users:issuedate'] = 'Date d\'émission de la licence de l\'entreprise';
-$string['privacy:metadata:companylicense_users:isusing'] = 'Les utilisateurs de licence d\'entreprise utilisent un indicateur';
-$string['privacy:metadata:companylicense_users:licensecourseid'] = 'ID de cours de licence d\'utilisateurs de licence d\'entreprise';
-$string['privacy:metadata:companylicense_users:licenseid'] = 'ID de licence des utilisateurs de licence d\'entreprise';
-$string['privacy:metadata:companylicense_users:result'] = 'Résultat des utilisateurs de licence d\'entreprise';
-$string['privacy:metadata:companylicense_users:score'] = 'Score des utilisateurs de licence d\'entreprise';
-$string['privacy:metadata:companylicense_users:timecompleted'] = 'Temps d\'utilisation de la licence d\'entreprise terminé';
-$string['privacy:metadata:companylicense_users:userid'] = 'ID utilisateur des utilisateurs de la licence de l\'entreprise';
-$string['privacy:metadata:company_users'] = 'Utilisateurs de l\'entreprise';
-$string['privacy:metadata:company_users:companyid'] = 'ID de l\'entreprise des utilisateurs de l\'entreprise';
-$string['privacy:metadata:company_users:departmentid'] = 'ID du service des utilisateurs de l\'entreprise';
-$string['privacy:metadata:company_users:managertype'] = 'Type de gestionnaire d\'utilisateurs de l\'entreprise';
-$string['privacy:metadata:company_users:suspended'] = 'Utilisateurs suspendus de la compagnie avec indicateur';
-$string['privacy:metadata:company_users:userid'] = 'ID utilisateur des utilisateurs de l\'entreprise';
-$string['removelicenses'] = 'Supprimé - Dossiers de cours et licences de l\'entreprise';
-$string['setupiomad'] = 'Commencer à configurer iomad';
-$string['show_suspended_companies'] = 'Afficher les entreprises suspendues ?';
+$string['missingaccesstocourse'] = 'Vous n’êtes pas autorisé à effectuer cette action.';
+$string['nopermissions'] = 'L’administrateur IOMAD ne vous a pas autorisé à effectuer cette action.';
+$string['pluginname'] = 'IOMAD';
+$string['privacy:metadata'] = 'Le plugin local IOMAD affiche uniquement des données stockées dans d’autres composants.';
+$string['privacy:metadata:companylicense_users'] = 'Utilisateurs des licences d’entité';
+$string['privacy:metadata:companylicense_users:groupid'] = 'Identifiant du groupe des utilisateurs de la licence d’entité';
+$string['privacy:metadata:companylicense_users:issuedate'] = 'Date d’émission de la licence d’entité';
+$string['privacy:metadata:companylicense_users:isusing'] = 'Indicateur d’utilisation de la licence d’entité';
+$string['privacy:metadata:companylicense_users:licensecourseid'] = 'Identifiant du cours de la licence d’entité';
+$string['privacy:metadata:companylicense_users:licenseid'] = 'Identifiant de la licence d’entité';
+$string['privacy:metadata:companylicense_users:result'] = 'Résultat de la licence d’entité';
+$string['privacy:metadata:companylicense_users:score'] = 'Score de la licence d’entité';
+$string['privacy:metadata:companylicense_users:timecompleted'] = 'Date de fin d’utilisation de la licence d’entité';
+$string['privacy:metadata:companylicense_users:userid'] = 'Identifiant utilisateur de la licence d’entité';
+$string['privacy:metadata:company_users'] = 'Utilisateurs de l’entité';
+$string['privacy:metadata:company_users:companyid'] = 'Identifiant de l’entité de l’utilisateur';
+$string['privacy:metadata:company_users:departmentid'] = 'Identifiant du département de l’utilisateur';
+$string['privacy:metadata:company_users:managertype'] = 'Type de responsable de l’utilisateur';
+$string['privacy:metadata:company_users:suspended'] = 'Indicateur de suspension de l’utilisateur';
+$string['privacy:metadata:company_users:userid'] = 'Identifiant utilisateur';
+$string['removelicenses'] = 'Supprimé – dossiers de cours et licences de l’entité';
+$string['setupiomad'] = 'Commencer la configuration d’IOMAD';
+$string['show_suspended_companies'] = 'Afficher les entités suspendues ?';
 $string['show_suspended_users'] = 'Afficher les utilisateurs suspendus ?';
 $string['userfilter'] = 'Filtrer les résultats';
-$string['usersearchfields'] = 'Champs de recherche d\'utilisateurs';
+$string['usersearchfields'] = 'Champs de recherche des utilisateurs';

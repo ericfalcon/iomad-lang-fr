@@ -1,5 +1,4 @@
 <?php
-
 // This file is part of Moodle - http://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
@@ -16,7 +15,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Local language pack from https://learnpre.norm-uni.fr
+ * Strings for component 'local_report_user_license_allocations', language 'fr'
  *
  * @package    local
  * @subpackage report_user_license_allocations
@@ -24,50 +23,49 @@
  */
 
 defined('MOODLE_INTERNAL') || die();
-
 $string['actions'] = 'Actions';
 $string['allocated'] = 'Attribué : {$a}';
-$string['blocktitle'] = 'Rapport d\'attribution des licences utilisateur';
+$string['blocktitle'] = 'Rapport des attributions de licences utilisateur';
 $string['certificate'] = 'Certificat';
 $string['clear'] = 'Effacer';
-$string['clearconfirm'] = 'L\'utilisateur sera retiré du cours et toutes ses données seront supprimées. Ils auront tout de même une licence pour reprendre le cours. Es-tu sûr de vouloir faire ça?';
-$string['completed'] = 'Complété';
-$string['coursedetails'] = 'rapport de cours complet';
-$string['dateallocated'] = 'Date d\'attribution';
-$string['datecompleted'] = 'Date d\'achèvement';
-$string['datestarted'] = 'Cours attribué/commencé';
-$string['dateunallocated'] = 'Date de non-attribution';
-$string['deleteconfirm'] = 'L\'utilisateur sera retiré du cours, toutes ses données seront supprimées et toutes les licences seront réattribuées. Ça ne peut pas être annulé. Es-tu sûr?';
+$string['clearconfirm'] = 'L’utilisateur sera retiré du cours et toutes ses données seront supprimées. La licence restera disponible pour une nouvelle inscription. Confirmez-vous cette action ?';
+$string['completed'] = 'Terminé';
+$string['coursedetails'] = 'Rapport complet du cours';
+$string['dateallocated'] = 'Date d’attribution';
+$string['datecompleted'] = 'Date d’achèvement';
+$string['datestarted'] = 'Cours attribué / commencé';
+$string['dateunallocated'] = 'Date de désattribution';
+$string['deleteconfirm'] = 'L’utilisateur sera retiré du cours, toutes ses données seront supprimées et les licences seront réattribuées. Cette action est irréversible. Confirmez-vous ?';
 $string['department'] = 'Département';
 $string['detail'] = 'Détails';
-$string['downloadcert'] = 'Voir le certificat au format PDF';
+$string['downloadcert'] = 'Télécharger le certificat au format PDF';
 $string['inprogress'] = 'En cours';
 $string['licenseallocated'] = 'Licence attribuée';
-$string['nocerttodownload'] = 'Certificat non obtenu';
-$string['nofurtherdetail'] = 'Aucun autre détail à afficher';
-$string['notstarted'] = 'Pas commencé';
-$string['pluginname'] = 'Rapport sur les attributions de licences utilisateur';
-$string['privacy:metadata:local_report_user_lic_allocs'] = 'Rapport  local sur les attributions de licences utilisateur, informations utilisateur';
-$string['privacy:metadata:local_report_user_lic_allocs:action'] = 'Action d\'attribution';
+$string['nocerttodownload'] = 'Aucun certificat disponible';
+$string['nofurtherdetail'] = 'Aucun détail supplémentaire à afficher';
+$string['notstarted'] = 'Non commencé';
+$string['pluginname'] = 'Rapport des attributions de licences utilisateur';
+$string['privacy:metadata:local_report_user_lic_allocs'] = 'Informations relatives aux attributions de licences utilisateur';
+$string['privacy:metadata:local_report_user_lic_allocs:action'] = 'Action d’attribution';
 $string['privacy:metadata:local_report_user_lic_allocs:courseid'] = 'Identifiant du cours';
-$string['privacy:metadata:local_report_user_lic_allocs:id'] = 'Rapport  local sur les attributions de licences utilisateur, identifiant utilisateur';
-$string['privacy:metadata:local_report_user_lic_allocs:issuedate'] = 'Horodatage unix du problème de licence';
+$string['privacy:metadata:local_report_user_lic_allocs:id'] = 'Identifiant de l’enregistrement d’attribution';
+$string['privacy:metadata:local_report_user_lic_allocs:issuedate'] = 'Horodatage Unix de l’attribution de la licence';
 $string['privacy:metadata:local_report_user_lic_allocs:licenseid'] = 'Identifiant de la licence';
-$string['privacy:metadata:local_report_user_lic_allocs:userid'] = 'Identifiant de l\'utilisateur';
-$string['report_user_license_allocations:view'] = 'Afficher le rapport sur les attributions de licences utilisateur';
-$string['report_user_license_allocations_title'] = 'Rapport sur les attributions de licences utilisateur';
-$string['repuserlicallocation'] = 'Rapport sur les attributions de licences utilisateur';
-$string['scormattempts'] = 'Nombre de Tentatives';
-$string['scormnotstarted'] = 'Utilisateur inscrit au cours. Module non démarré';
+$string['privacy:metadata:local_report_user_lic_allocs:userid'] = 'Identifiant de l’utilisateur';
+$string['report_user_license_allocations:view'] = 'Afficher le rapport des attributions de licences utilisateur';
+$string['report_user_license_allocations_title'] = 'Attributions de licences utilisateur';
+$string['repuserlicallocation'] = 'Rapport des attributions de licences utilisateur';
+$string['scormattempts'] = 'Nombre de tentatives';
+$string['scormnotstarted'] = 'Utilisateur inscrit au cours, module non démarré';
 $string['scormquestion'] = 'Identifiant de la question';
 $string['scormresult'] = 'Résultat';
-$string['scormresults'] = 'Résultat';
+$string['scormresults'] = 'Résultats';
 $string['scormtimestarted'] = 'Commencé le';
 $string['scormtype'] = 'Type de question';
-$string['totalallocate'] = 'Nombre d\'attributions';
-$string['totalunallocate'] = 'Nombre de non-attribution';
+$string['totalallocate'] = 'Nombre d’attributions';
+$string['totalunallocate'] = 'Nombre de désattributions';
 $string['unallocated'] = 'Non attribué : {$a}';
-$string['usercoursedetails'] = 'Détails de l\'utilisateur';
-$string['userdetails'] = 'Rapport d\'informations pour';
-$string['user_detail_title'] = 'Rapports d\'utilisateurs';
+$string['usercoursedetails'] = 'Détails de l’utilisateur';
+$string['userdetails'] = 'Rapport utilisateur pour';
+$string['user_detail_title'] = 'Rapports utilisateurs';
 $string['viewfullcourse'] = 'Voir le résumé complet du cours';

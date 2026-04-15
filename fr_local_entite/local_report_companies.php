@@ -1,5 +1,4 @@
 <?php
-
 // This file is part of Moodle - http://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
@@ -16,7 +15,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Local language pack from https://learnpre.norm-uni.fr
+ * Strings for component 'local_report_companies', language 'fr'
  *
  * @package    local
  * @subpackage report_companies
@@ -24,26 +23,25 @@
  */
 
 defined('MOODLE_INTERNAL') || die();
-
-$string['childcompany'] = 'Il s\'agit d\'une entreprise enfant. Le parent est \'{$a}\\';
-$string['companies'] = 'Entreprises';
-$string['completed'] = 'Complété';
-$string['completionreportlink'] = 'Informations d\'achèvement';
+$string['childcompany'] = 'Il s’agit d’une entité enfant. L’entité parente est « {$a} »';
+$string['companies'] = 'Entités';
+$string['completed'] = 'Terminé';
+$string['completionreportlink'] = 'Informations d’achèvement';
 $string['course'] = 'Cours';
-$string['coursemanagers'] = 'Gestionnaires de l\'entreprise';
-$string['courses'] = 'Cours de l\'entreprise';
-$string['courseusers'] = 'Utilisateurs de l\'entreprise';
-$string['departmentmanagers'] = 'Managers de département';
-$string['iomad_companies:view'] = 'Rapport des entreprises Iomad';
-$string['nocourses'] = 'Aucun cours spécifié pour cette entreprise';
-$string['nomanagers'] = 'Aucun gestionnaire spécifié pour cette entreprise';
-$string['notheme'] = 'Aucun thème n\'est défini';
-$string['nousers'] = 'Aucun utilisateur spécifié pour cette entreprise';
+$string['coursemanagers'] = 'Responsables de l’entité';
+$string['courses'] = 'Cours de l’entité';
+$string['courseusers'] = 'Utilisateurs de l’entité';
+$string['departmentmanagers'] = 'Responsables de département';
+$string['iomad_companies:view'] = 'Voir le rapport des entités IOMAD';
+$string['nocourses'] = 'Aucun cours défini pour cette entité';
+$string['nomanagers'] = 'Aucun responsable défini pour cette entité';
+$string['notheme'] = 'Aucun thème défini';
+$string['nousers'] = 'Aucun utilisateur défini pour cette entité';
 $string['overview'] = 'Aperçu';
-$string['pluginname'] = 'Rapport de présentation de l\'entreprise Iomad';
-$string['privacy:metadata'] = 'Le rapport de présentation de l\'entreprise Local Iomad affiche uniquement les données stockées dans d\'autres emplacements.';
-$string['report_companies:view'] = 'Voir le rapport des sociétés';
-$string['themedetails'] = 'Détails du thème :';
-$string['themeinfo'] = 'Thème de l\'entreprise';
+$string['pluginname'] = 'Rapport de présentation des entités IOMAD';
+$string['privacy:metadata'] = 'Le rapport de présentation des entités IOMAD affiche uniquement des données stockées dans d’autres composants.';
+$string['report_companies:view'] = 'Voir le rapport des entités';
+$string['themedetails'] = 'Détails du thème :';
+$string['themeinfo'] = 'Thème de l’entité';
 $string['totalcoursecount'] = 'Nombre total de cours : {$a}';
-$string['totalusercount'] = 'Nombre total d\'utilisateurs : {$a}';
+$string['totalusercount'] = 'Nombre total d’utilisateurs : {$a}';
