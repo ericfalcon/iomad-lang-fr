@@ -103,3 +103,27 @@ $string['settings_fieldmap_field_mail'] = 'Adresse e-mail';
 $string['settings_fieldmap_field_mobile'] = 'Téléphone mobile';
 $string['settings_fieldmap_field_onPremisesSamAccountName'] = 'Identifiant SAM local';
 $string['settings_page_secret_expiry_notification'] = 'Notification d’expiration du secret';
+// ---- Suffix _4 translations auth_iomadoidc ----
+
+$string['clientcert_4'] = 'Certificat client (clé publique)';
+$string['clientprivatekey_4'] = 'Clé privée du certificat client';
+$string['clientprivatekeyfile_4'] = 'Nom du fichier de la clé privée du certificat client';
+$string['clientcertfile_4'] = 'Nom du fichier du certificat client';
+$string['clientcertpassphrase_4'] = 'Phrase secrète du certificat client';
+
+$string['clientcertsource_4'] = 'Source du certificat';
+
+$string['clientcertsource_4_help'] = 'Lors de l’utilisation de la méthode d’authentification par certificat, ce paramètre permet de définir la source du certificat.
+La source « texte brut » nécessite de saisir le contenu du certificat et de la clé privée.
+La source « nom de fichier » nécessite que les fichiers soient présents dans le dossier microsoft_certs du répertoire Moodle data.';
+
+$string['iomadoidcresource_4'] = 'Ressource';
+
+$string['iomadoidcresource_4_help'] = 'Ressource OpenID Connect à utiliser.';
+
+$string['iomadoidcscope_4'] = 'Portée';
+
+$string['iomadoidcscope_4_help'] = 'Portée OpenID Connect utilisée pour l’authentification.';
+
+$string['authendpoint_4'] = 'Point de terminaison d’autorisation';
+$string['tokenendpoint_4'] = 'Point de terminaison du jeton';
