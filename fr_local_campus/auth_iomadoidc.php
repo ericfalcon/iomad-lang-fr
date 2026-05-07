@@ -17,7 +17,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['application_updated'] = 'Le paramètre de l’application OpenID Connect a été mis à jour.';
-$string['application_updated_azure'] = 'Le paramètre de l’application OpenID Connect a été mis à jour.<br/> <span class="warning" style="color: red;"> L’administrateur Azure devra <b>fournir le consentement de l’administrateur</b> et <b>vérifier la configuration</b> à nouveau sur la <a href="{$a}" target="_blank">page de configuration de l’intégration Microsoft 365</a> si les paramètres « Type de fournisseur d’identité (IdP) » ou « Méthode d’authentification client » sont modifiés. </span>';
+$string['application_updated_azure'] = 'Le paramètre de l’application OpenID Connect a été mis à jour.<br/><span class="warning" style="color:red;">L’administrateur Azure devra <b>fournir le consentement administrateur</b> et <b>vérifier à nouveau la configuration</b> sur la page de configuration de l’intégration Microsoft 365 si les paramètres « Type de fournisseur d’identité (IdP) » ou « Méthode d’authentification client » sont modifiés.</span>';
 $string['authendpoint'] = 'Point de terminaison d’autorisation';
 $string['authendpoint_help'] = 'URL du point de terminaison d’autorisation de votre fournisseur d’identité.<br/> Notez que si le site doit être configuré pour permettre aux utilisateurs d’autres locataires d’accéder, le point de terminaison spécifique au locataire ne peut pas être utilisé.';
 $string['authentication_and_endpoints_saved'] = 'Paramètres d’authentification et de points de terminaison mis à jour.';
