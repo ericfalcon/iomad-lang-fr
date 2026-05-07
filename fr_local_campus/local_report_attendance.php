@@ -23,6 +23,12 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
+/**
+ * Strings for component 'local_report_attendance', language 'fr'
+ *
+ * @package    local_report_attendance
+ */
+
 defined('MOODLE_INTERNAL') || die();
 
 $string['attendance'] = 'Participants';
