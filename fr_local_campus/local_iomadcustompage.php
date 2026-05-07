@@ -1,0 +1,119 @@
+<?php
+// This file is part of Moodle - http://moodle.org/
+//
+// Moodle is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// Moodle is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+
+/**
+ * Strings for component 'local_iomadcustompage', language 'fr'
+ *
+ * @package    local
+ * @subpackage iomadcustompage
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
+defined('MOODLE_INTERNAL') || die();
+
+$string['access'] = 'Accès';
+$string['allauthenticatedusers'] = 'Tous les utilisateurs authentifiés';
+$string['allauthenticatedusersdesc'] = 'Tous les utilisateurs authentifiés du site';
+$string['allsiteadmin'] = 'Administrateurs du site';
+$string['audience'] = 'Audience';
+$string['audiencecreated'] = 'Audience de page personnalisée IOMAD créée';
+$string['audiencedeleted'] = 'Audience de page personnalisée IOMAD supprimée';
+$string['audienceupdated'] = 'Audience de page personnalisée IOMAD mise à jour';
+$string['audiencewarning'] = 'Vous devez disposer des autorisations nécessaires pour afficher ou modifier cette audience';
+$string['cachedef_user_allowed_pages'] = 'Pages autorisées pour l’utilisateur selon l’audience';
+$string['categoryrole'] = 'Rôle de catégorie';
+$string['closeeditor'] = 'Fermer l’éditeur';
+$string['content'] = 'Contenu';
+$string['copyurl'] = 'Copier l’URL';
+$string['createdby'] = 'Créé par';
+$string['iomadcustompage'] = 'Page personnalisée';
+$string['iomadcustompage:edit'] = 'Modifier les pages personnalisées';
+$string['iomadcustompage:editall'] = 'Modifier toutes les pages personnalisées';
+$string['iomadcustompage:skipblockvalidation'] = 'Dupliquer les blocs de page personnalisée sans validation';
+$string['iomadcustompage:view'] = 'Afficher les pages personnalisées';
+$string['iomadcustompages'] = 'Pages personnalisées';
+$string['deletepage'] = 'Supprimer la page';
+$string['deletepageconfirm'] = 'Êtes-vous sûr de vouloir supprimer la page « {$a} » ?';
+$string['deletepagesuccess'] = 'Page supprimée';
+$string['detailssaved'] = 'Détails de la page enregistrés';
+$string['duplicatepage'] = 'Dupliquer la page';
+$string['duplicatepageconfirm'] = 'Êtes-vous sûr de vouloir dupliquer la page « {$a} » ?';
+$string['duplicatepagepostfix'] = '{$a} (copie)';
+$string['editingpage'] = 'Modification de « {$a} »';
+$string['editname'] = 'Modifier le nom';
+$string['editpage'] = 'Modifier la page';
+$string['editpagealert'] = 'Activez le mode édition pour ajouter des blocs à cette page.';
+$string['editpagecontent'] = 'Modifier la page personnalisée';
+$string['editpagedetails'] = 'Modifier les détails de la page personnalisée';
+$string['editpagename'] = 'Modifier le nom de la page';
+$string['editpagetitle'] = 'Modifier le titre de la page';
+$string['editweight'] = 'Modifier l’ordre';
+$string['entityiomadcustompages'] = 'Pages personnalisées de l’campus';
+$string['errorpagecreate'] = 'Vous ne pouvez pas créer de nouvelles pages';
+$string['errorpageedit'] = 'Vous ne pouvez pas modifier cette page';
+$string['errorpagelist'] = 'Vous ne pouvez pas afficher la liste des pages';
+$string['errorpagepreview'] = 'Vous ne pouvez pas prévisualiser cette page';
+$string['errorpageview'] = 'Vous ne pouvez pas afficher cette page';
+$string['hidefromnavigation'] = 'Masquer de la navigation';
+$string['manageiomadcustompages'] = 'Gérer les pages personnalisées';
+$string['name'] = 'Nom';
+$string['name_help'] = 'Le nom sera utilisé comme en-tête de page et comme libellé dans la navigation principale';
+$string['newpage'] = 'Nouvelle page';
+$string['noaudiences'] = 'Aucune audience n’est définie pour cette page';
+$string['noblocks'] = 'Aucun bloc sur cette page';
+$string['nonauthenticatedusers'] = 'Utilisateurs non authentifiés';
+$string['nonauthenticatedusersdesc'] = 'Utilisateurs invités et non authentifiés';
+$string['page'] = 'Page';
+$string['pagecreated'] = 'Page personnalisée IOMAD créée';
+$string['pagedeleted'] = 'Page personnalisée IOMAD supprimée';
+$string['pagetype'] = 'Type de page';
+$string['pageupdated'] = 'Page personnalisée IOMAD mise à jour';
+$string['pageviewed'] = 'Page personnalisée IOMAD consultée';
+$string['pluginname'] = 'Pages personnalisées IOMAD';
+$string['previewingpage'] = 'Prévisualisation de « {$a} »';
+$string['previewpage'] = 'Prévisualiser';
+$string['privacy:metadata:audience'] = 'Définitions des audiences de la page';
+$string['privacy:metadata:audience:classname'] = 'Classe utilisée par l’audience';
+$string['privacy:metadata:audience:configdata'] = 'Données de configuration utilisées par l’audience';
+$string['privacy:metadata:audience:heading'] = 'Titre personnalisé utilisé par l’audience';
+$string['privacy:metadata:audience:pageid'] = 'Identifiant de la page associée à l’audience';
+$string['privacy:metadata:audience:timecreated'] = 'Date de création de l’audience';
+$string['privacy:metadata:audience:timemodified'] = 'Date de dernière modification de l’audience';
+$string['privacy:metadata:audience:usercreated'] = 'Identifiant de l’utilisateur ayant créé l’audience';
+$string['privacy:metadata:audience:usermodified'] = 'Identifiant de l’utilisateur ayant modifié l’audience';
+$string['privacy:metadata:page'] = 'Définitions des pages';
+$string['privacy:metadata:page:name'] = 'Nom de la page';
+$string['privacy:metadata:page:timecreated'] = 'Date de création de la page';
+$string['privacy:metadata:page:timemodified'] = 'Date de dernière modification de la page';
+$string['privacy:metadata:page:title'] = 'Titre de la page';
+$string['privacy:metadata:page:usercreated'] = 'Identifiant de l’utilisateur ayant créé la page';
+$string['privacy:metadata:page:usermodified'] = 'Identifiant de l’utilisateur ayant modifié la page';
+$string['privacy:metadata:page:weight'] = 'Ordre de la page';
+$string['region-content'] = 'Zone de contenu';
+$string['region-side-pre'] = 'Zone droite';
+$string['showinnavigation'] = 'Afficher dans la navigation';
+$string['title'] = 'Titre dans la navigation';
+$string['title_help'] = 'Si défini, le libellé de la navigation principale peut être modifié ici';
+$string['unlisted'] = 'Non répertoriée';
+$string['updatedby'] = 'Mis à jour par';
+$string['viewpage'] = 'Afficher la page';
+$string['viewpagealert'] = 'Vous modifiez une page personnalisée. Toutes les modifications seront visibles par les utilisateurs autorisés à accéder à cette page.';
+$string['visible'] = 'Afficher dans la navigation principale';
+$string['visible_help'] = 'Afficher cette page dans la navigation principale. Si désactivé, les utilisateurs autorisés devront y accéder via une URL.';
+$string['weight'] = 'Ordre';
+$string['weight_help'] = 'Définit l’ordre d’affichage de cette page dans la navigation principale. Les nombres les plus petits sont affichés en premier.';
+$string['weightfirst'] = '{$a} (Premier)';
+$string['weightlast'] = '{$a} (Dernier)';

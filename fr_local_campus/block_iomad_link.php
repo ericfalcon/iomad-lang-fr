@@ -1,5 +1,4 @@
 <?php
-
 // This file is part of Moodle - http://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
@@ -15,19 +14,11 @@
 // You should have received a copy of the GNU General Public License
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
-/**
- * Local language pack from https://learnpre.norm-uni.fr
- *
- * @package    block
- * @subpackage iomad_link
- * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
- */
-
 defined('MOODLE_INTERNAL') || die();
 
-$string['iomad_link:addinstance'] = 'Ajouter un nouveau Iomad Dashboard bloc de liens';
-$string['iomad_link:myaddinstance'] = 'Ajouter un nouveau bloc de lien Iomad Dashboard au tableau de bord des utilisateurs';
-$string['iomad_link:view'] = 'Afficher le lien vers le tableau de bord Iomad';
-$string['link'] = 'Accéder au tableau de bord Iomad';
-$string['pluginname'] = 'Iomad - Lien vers le tableau de bord';
-$string['privacy:metadata'] = 'Le bloc de liens IOMAD Dashboard affiche uniquement les données stockées à d’autres emplacements.';
+$string['iomad_link:addinstance'] = 'Ajouter un nouveau bloc de liens du tableau de bord IOMAD';
+$string['iomad_link:myaddinstance'] = 'Ajouter un nouveau bloc de liens du tableau de bord IOMAD au tableau de bord des utilisateurs';
+$string['iomad_link:view'] = 'Afficher le lien vers le tableau de bord IOMAD';
+$string['link'] = 'Accéder au tableau de bord IOMAD';
+$string['pluginname'] = 'IOMAD – Lien vers le tableau de bord';
+$string['privacy:metadata'] = 'Le bloc de liens du tableau de bord IOMAD affiche uniquement des données stockées dans d’autres composants.';

@@ -1,5 +1,4 @@
 <?php
-
 // This file is part of Moodle - http://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
@@ -15,22 +14,14 @@
 // You should have received a copy of the GNU General Public License
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
-/**
- * Local language pack from https://learnpre.norm-uni.fr
- *
- * @package    block
- * @subpackage iomad_company_selector
- * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
- */
-
 defined('MOODLE_INTERNAL') || die();
 
-$string['currentcompany'] = 'Le Campus actuel est';
-$string['currentcompanyname'] = 'Campus actuel, <b>\'{$a}\'</b>';
-$string['iomad_company_selector:addinstance'] = 'Ajouter un nouveau bloc IOMAD de sélection de campus';
-$string['iomad_company_selector:myaddinstance'] = 'Ajouter un nouveau bloc IOMAD de sélection de campus au tableau de bord des utilisateurs';
-$string['nocurrentcompany'] = 'Veuillez sélectionner un campus dans la liste déroulante';
-$string['pluginname'] = 'iomad - Sélecteur de campus';
-$string['privacy:metadata'] = 'Le bloc IOMAD de sélection de campus  affiche uniquement les données stockées à d’autres emplacements.';
-$string['selectacompany'] = 'Sélectionnez un campus';
-$string['title'] = 'Sélection du campus';
+$string['currentcompany'] = 'L’campus actuelle est';
+$string['currentcompanyname'] = 'Campus actuelle, <b>\'{$a}\'</b>';
+$string['iomad_company_selector:addinstance'] = 'Ajouter un nouveau bloc IOMAD de sélection d’campus';
+$string['iomad_company_selector:myaddinstance'] = 'Ajouter un nouveau bloc IOMAD de sélection d’campus au tableau de bord des utilisateurs';
+$string['nocurrentcompany'] = 'Veuillez sélectionner une campus dans la liste déroulante';
+$string['pluginname'] = 'IOMAD – Sélecteur d’campus';
+$string['privacy:metadata'] = 'Le bloc IOMAD de sélection d’campus affiche uniquement des données stockées dans d’autres composants.';
+$string['selectacompany'] = 'Sélectionnez une campus';
+$string['title'] = 'Sélection de l’campus';

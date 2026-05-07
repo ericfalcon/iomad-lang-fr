@@ -1,5 +1,4 @@
 <?php
-
 // This file is part of Moodle - http://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
@@ -16,7 +15,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Local language pack from https://learnpre.norm-uni.fr
+ * Strings for component 'local_report_license_usage', language 'fr'
  *
  * @package    local
  * @subpackage report_license_usage
@@ -24,15 +23,14 @@
  */
 
 defined('MOODLE_INTERNAL') || die();
-
-$string['blocktitle'] = 'Rapport sur les licences attribuées';
+$string['blocktitle'] = 'Rapport d’utilisation des licences';
 $string['numnet'] = 'Attribution nette';
-$string['numstart'] = 'Préalablement attribué';
+$string['numstart'] = 'Attribuées initialement';
 $string['numtotal'] = 'Total attribué';
-$string['pluginname'] = 'Rapport sur les licences attribuées';
-$string['privacy:metadata'] = 'Le rapport d\'allocations de licences Iomad locales affiche uniquement les données stockées dans d\'autres emplacements.';
-$string['report_license_usage:view'] = 'Afficher le rapport sur les licences attribuées';
-$string['report_license_usage_title'] = 'Rapport sur les licences attribuées';
-$string['repuserlicallocation'] = 'Rapport sur les licences attribuées';
-$string['totalallocate'] = 'Nombre d\'attributions';
-$string['totalunallocate'] = 'Nombre de non-attribution';
+$string['pluginname'] = 'Rapport d’utilisation des licences';
+$string['privacy:metadata'] = 'Le rapport d’utilisation des licences IOMAD affiche uniquement des données stockées dans d’autres composants.';
+$string['report_license_usage:view'] = 'Afficher le rapport d’utilisation des licences';
+$string['report_license_usage_title'] = 'Rapport d’utilisation des licences';
+$string['repuserlicallocation'] = 'Rapport d’utilisation des licences';
+$string['totalallocate'] = 'Nombre d’attributions';
+$string['totalunallocate'] = 'Nombre de désattributions';
