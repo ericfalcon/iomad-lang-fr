@@ -25,19 +25,19 @@
 
 defined('MOODLE_INTERNAL') || die();
 $string['authenticationtypes'] = 'Sélectionnez les types d’authentification';
-$string['authenticationtypes_desc'] = 'Types d’authentification pouvant être utilisés pour affecter automatiquement un utilisateur à une campus.';
+$string['authenticationtypes_desc'] = 'Types d’authentification pouvant être utilisés pour affecter automatiquement un utilisateur à un campus.';
 $string['autoenrol'] = 'Inscription automatique de l’utilisateur';
-$string['autoenrol_help'] = 'Si activé, les nouveaux utilisateurs seront automatiquement inscrits aux cours sans licence ou à inscription automatique attribués à l’campus.';
+$string['autoenrol_help'] = 'Si activé, les nouveaux utilisateurs seront automatiquement inscrits aux cours sans licence ou à inscription automatique attribués au campus.';
 $string['autoenrol_unassigned'] = 'Inscription automatique aux cours non attribués';
-$string['autoenrol_unassigned_help'] = 'Si activé, les nouveaux utilisateurs seront automatiquement inscrits aux cours sans licence ou à inscription automatique non attribués à une campus.';
+$string['autoenrol_unassigned_help'] = 'Si activé, les nouveaux utilisateurs seront automatiquement inscrits aux cours sans licence ou à inscription automatique non attribués à un campus.';
 $string['choosepassword'] = 'Créer un nouvel utilisateur';
-$string['company'] = 'Les utilisateurs par défaut de l’campus sont affectés à';
-$string['configcompany'] = 'Campus à laquelle l’utilisateur sera affecté après la fin du processus d’inscription si aucune autre campus n’est définie par l’inscription ou par le domaine de messagerie.';
+$string['company'] = 'Les utilisateurs par défaut du campus sont affectés à';
+$string['configcompany'] = 'Campus auquel l’utilisateur sera affecté après la fin du processus d’inscription si aucun autre campus n’est défini par l’inscription ou par le domaine de messagerie.';
 $string['configrole'] = 'Rôle attribué à l’utilisateur une fois le processus d’inscription terminé.';
 $string['emailasusernamehelp'] = 'Saisissez votre adresse e-mail. Elle sera utilisée comme nom d’utilisateur.';
-$string['emaildomaindoesntmatch'] = 'Votre domaine de messagerie ne fait pas partie des domaines autorisés pour cette campus.';
+$string['emaildomaindoesntmatch'] = 'Votre domaine de messagerie ne fait pas partie des domaines autorisés pour ce campus.';
 $string['enable'] = 'Activer';
-$string['enable_help'] = 'Si activé, les nouveaux utilisateurs seront affectés à une campus lors de la création du compte.';
+$string['enable_help'] = 'Si activé, les nouveaux utilisateurs seront affectés à un campus lors de la création du compte.';
 $string['logininfo'] = 'Remplissez le formulaire ci-dessous pour créer un nouvel utilisateur. Un e-mail sera envoyé à l’adresse indiquée afin de vérifier le compte et autoriser l’accès.';
 $string['pluginname'] = 'Inscription IOMAD';
 $string['privacy:metadata'] = 'Le plugin d’inscription IOMAD n’enregistre aucune donnée personnelle supplémentaire.';

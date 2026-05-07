@@ -16,14 +16,14 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['anycompany'] = '(Toute campus)';
-$string['description'] = 'Autoriser uniquement les étudiants appartenant à une campus spécifique ou à toutes les campus.';
-$string['error_selectcompany'] = 'Vous devez sélectionner une campus.';
-$string['missing'] = '(Campus disparue)';
+$string['anycompany'] = '(Tous les campus)';
+$string['description'] = 'Autoriser uniquement les étudiants appartenant à un campus spécifique ou à tous les campus.';
+$string['error_selectcompany'] = 'Vous devez sélectionner un campus.';
+$string['missing'] = '(Campus disparu)';
 $string['pluginname'] = 'Restriction par campus';
 $string['privacy:metadata'] = 'Le plugin Restriction par campus ne stocke aucune donnée personnelle.';
-$string['requires_anycompany'] = 'Vous appartenez à n\'importe quelle campus';
+$string['requires_anycompany'] = 'Vous appartenez à n\'importe quel campus';
 $string['requires_company'] = 'Vous appartenez à <strong>{$a}</strong>';
-$string['requires_notanycompany'] = 'Vous n\'appartenez à aucune campus';
+$string['requires_notanycompany'] = 'Vous n\'appartenez à aucun campus';
 $string['requires_notcompany'] = 'Vous n\'appartenez pas à <strong>{$a}</strong>';
 $string['title'] = 'Campus';

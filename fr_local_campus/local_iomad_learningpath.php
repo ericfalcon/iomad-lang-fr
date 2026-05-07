@@ -26,7 +26,7 @@ $string['both'] = 'Les deux';
 $string['clicktoadd'] = 'Cliquez sur <i class="fa fa-plus text-muted"></i> ou faites glisser <i class="fa fa-arrows text-muted"></i> pour ajouter';
 $string['clicktoremove'] = 'Cliquez sur <i class="fa fa-trash text-muted"></i> pour supprimer. Faites glisser <i class="fa fa-arrows text-muted"></i> pour ordonner ou supprimer.';
 $string['closeeye'] = 'Rendre indisponible';
-$string['companymismatch'] = 'Le parcours de l’campus ne correspond pas à l’campus sélectionnée';
+$string['companymismatch'] = 'Le parcours du campus ne correspond pas au campus sélectionné';
 $string['confirm'] = 'Confirmer';
 $string['confirmcopy'] = 'Voulez-vous dupliquer complètement ce parcours ?';
 $string['confirmdelete'] = 'Voulez-vous vraiment supprimer ce parcours ? Cette action est irréversible.';

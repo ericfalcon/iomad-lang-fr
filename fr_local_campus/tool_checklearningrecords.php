@@ -26,7 +26,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['brokencompletions'] = 'Nombre d’enregistrements avec des informations d’achèvement corrompues : {$a}';
 $string['brokenlicenses'] = 'Nombre d’enregistrements avec des informations de licence corrompues : {$a}';
-$string['companyid'] = 'Identifiant de l’campus';
+$string['companyid'] = 'Identifiant du campus';
 $string['courseid'] = 'Identifiant du cours';
 $string['doit'] = 'Lancer la vérification';
 $string['fromdate'] = 'Achèvements à partir de la date';

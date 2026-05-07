@@ -19,6 +19,6 @@ $string['iomad_reports:addinstance'] = 'Ajouter un nouveau bloc Rapports IOMAD';
 $string['iomad_reports:myaddinstance'] = 'Ajouter un nouveau bloc Rapports IOMAD au tableau de bord des utilisateurs';
 $string['iomad_reports:view'] = 'Accéder aux rapports IOMAD';
 $string['link'] = 'Accéder au tableau de bord IOMAD';
-$string['nocompanyselected'] = 'Aucune campus n’est sélectionnée';
+$string['nocompanyselected'] = 'Aucun campus n’est sélectionnée';
 $string['pluginname'] = 'Rapports IOMAD';
 $string['privacy:metadata'] = 'Le bloc Rapports IOMAD affiche uniquement des données stockées dans d’autres composants.';

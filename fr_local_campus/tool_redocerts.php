@@ -25,7 +25,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['clearingcertificate'] = 'Effacement du certificat (ID {$a->id}) : {$a->count} sur {$a->total}';
-$string['companyid'] = 'Identifiant de l’campus';
+$string['companyid'] = 'Identifiant du campus';
 $string['courseid'] = 'Identifiant du cours';
 $string['doit'] = 'Confirmer l’exécution';
 $string['fromdate'] = 'Achèvements à partir de la date';
@@ -35,7 +35,7 @@ $string['pageheader'] = 'Recréer les certificats stockés';
 $string['pluginname'] = 'Recréation des certificats stockés';
 $string['privacy:metadata'] = 'L’outil de recréation des certificats ne stocke aucune donnée personnelle.';
 $string['recreatingcertificate'] = 'Recréation du certificat';
-$string['searchcompanies'] = 'Sélectionner une campus';
+$string['searchcompanies'] = 'Sélectionner un campus';
 $string['searchcourses'] = 'Sélectionner un cours';
 $string['searchusers'] = 'Sélectionner un utilisateur';
 $string['todate'] = 'Achèvements jusqu’à la date';

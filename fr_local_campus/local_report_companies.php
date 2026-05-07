@@ -23,25 +23,25 @@
  */
 
 defined('MOODLE_INTERNAL') || die();
-$string['childcompany'] = 'Il s’agit d’une campus enfant. L’campus parente est « {$a} »';
+$string['childcompany'] = 'Il s’agit d’un campus enfant. Le campus parent est « {$a} »';
 $string['companies'] = 'Campus';
 $string['completed'] = 'Terminé';
 $string['completionreportlink'] = 'Informations d’achèvement';
 $string['course'] = 'Cours';
-$string['coursemanagers'] = 'Responsables de l’campus';
-$string['courses'] = 'Cours de l’campus';
-$string['courseusers'] = 'Utilisateurs de l’campus';
+$string['coursemanagers'] = 'Responsables du campus';
+$string['courses'] = 'Cours du campus';
+$string['courseusers'] = 'Utilisateurs du campus';
 $string['departmentmanagers'] = 'Responsables de filière';
 $string['iomad_companies:view'] = 'Voir le rapport des campus IOMAD';
-$string['nocourses'] = 'Aucun cours défini pour cette campus';
-$string['nomanagers'] = 'Aucun responsable défini pour cette campus';
+$string['nocourses'] = 'Aucun cours défini pour ce campus';
+$string['nomanagers'] = 'Aucun responsable défini pour ce campus';
 $string['notheme'] = 'Aucun thème défini';
-$string['nousers'] = 'Aucun utilisateur défini pour cette campus';
+$string['nousers'] = 'Aucun utilisateur défini pour ce campus';
 $string['overview'] = 'Aperçu';
 $string['pluginname'] = 'Rapport de présentation des campus IOMAD';
 $string['privacy:metadata'] = 'Le rapport de présentation des campus IOMAD affiche uniquement des données stockées dans d’autres composants.';
 $string['report_companies:view'] = 'Voir le rapport des campus';
 $string['themedetails'] = 'Détails du thème :';
-$string['themeinfo'] = 'Thème de l’campus';
+$string['themeinfo'] = 'Thème du campus';
 $string['totalcoursecount'] = 'Nombre total de cours : {$a}';
 $string['totalusercount'] = 'Nombre total d’utilisateurs : {$a}';

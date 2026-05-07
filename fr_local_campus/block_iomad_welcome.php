@@ -19,6 +19,6 @@ $string['dashboardtext'] = 'Cliquez ici pour commencer à utiliser IOMAD';
 $string['iomad_welcome:addinstance'] = 'Ajouter un nouveau bloc IOMAD Bienvenue';
 $string['iomad_welcome:myaddinstance'] = 'Ajouter un nouveau bloc IOMAD Bienvenue au tableau de bord des utilisateurs';
 $string['iomad_welcome:view'] = 'Afficher le bloc IOMAD Bienvenue';
-$string['message'] = 'Bienvenue sur <b>IOMAD</b> de E‑Learn Design Limited. IOMAD est administré depuis son propre tableau de bord. Suivez le lien ci‑dessous. Vous commencerez par créer votre première campus.';
+$string['message'] = 'Bienvenue sur <b>IOMAD</b> de E‑Learn Design Limited. IOMAD est administré depuis son propre tableau de bord. Suivez le lien ci‑dessous. Vous commencerez par créer votre premier campus.';
 $string['pluginname'] = 'IOMAD – Bienvenue';
 $string['privacy:metadata'] = 'Le bloc IOMAD Bienvenue affiche uniquement des données stockées dans d’autres composants.';
