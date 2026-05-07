@@ -89,3 +89,8 @@ $string['showprogress'] = 'Afficher la progression';
 $string['showprogress_desc'] = 'Afficher la progression dans les parcours';
 $string['toomanyprospectiveusers'] = 'Trop d’utilisateurs potentiels. Veuillez affiner le filtre.';
 $string['untitledgroup'] = 'Groupe sans titre';
+// ---- Traductions local_iomad_learningpath ----
+
+$string['iomad_learningpath:assign'] = 'Attribuer des utilisateurs à un parcours d’apprentissage';
+
+$string['learningpathnameused'] = 'Le nom est déjà utilisé par un autre parcours d’apprentissage';

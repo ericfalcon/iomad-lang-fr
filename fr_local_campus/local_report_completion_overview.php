@@ -50,3 +50,45 @@ $string['showfulldetail'] = 'Afficher les détails complets de l’achèvement';
 $string['showfulldetail_help'] = 'Si activé, toutes les informations d’achèvement sont affichées. Sinon, seules les dates de fin et d’expiration le sont.';
 $string['warningduration'] = 'Seuil d’avertissement avant expiration';
 $string['warningduration_help'] = 'Durée précédant l’expiration d’un cours pendant laquelle le rapport affiche un avertissement visuel.';
+// ---- Traductions local_report_completion_overview ----
+
+$string['bycourses'] = 'Afficher par cours';
+$string['byusers'] = 'Afficher par utilisateur';
+
+$string['coursesummary_expired'] = 'Inscrit : {$a->enrolled} Démarré : {$a->timestarted} Expiré : {$a->timeexpires} Note : {$a->finalscore}';
+
+$string['coursesummary_extra_indate'] = 'Inscrit : {$a->enrolled} Démarré : {$a->timestarted} Terminé : {$a->timecompleted} Expire : {$a->timeexpires} Note : {$a->finalscore} Dernière complétion : {$a->lastcompleted} Expire : {$a->timeexpired}';
+
+$string['coursesummary_extra_outdate'] = 'Inscrit : {$a->enrolled} Démarré : {$a->timestarted} Terminé : {$a->timecompleted} Expire : {$a->timeexpires} Note : {$a->finalscore} Dernière complétion : {$a->lastcompleted} Expiré : {$a->timeexpired}';
+
+$string['coursesummary_partial_extra_indate'] = 'Terminé : {$a->timecompleted} Expire : {$a->timeexpires} Dernière complétion : {$a->lastcompleted} Expire : {$a->timeexpired}';
+
+$string['coursesummary_partial_extra_outdate'] = 'Terminé : {$a->timecompleted} Expire : {$a->timeexpires} Dernière complétion : {$a->lastcompleted} Expiré : {$a->timeexpired}';
+
+$string['hideenrolledonly'] = 'Mettre en évidence les cours disponibles';
+
+$string['hideexpiry'] = 'Mettre en évidence les expirations';
+
+$string['indate'] = 'OK';
+
+$string['notcompleted-expiring'] = 'En cours (échéance à venir)';
+$string['notcompleted-indate'] = 'En cours (OK)';
+$string['notcompleted-outdate'] = 'En cours (expiré)';
+
+$string['notenrolled-expiring'] = 'Non inscrit (échéance à venir)';
+$string['notenrolled-indate'] = 'Non inscrit (OK)';
+$string['notenrolled-outdate'] = 'Non inscrit (expiré)';
+
+$string['reportbytext'] = 'Afficher le rapport sous forme de texte';
+
+$string['report_completion_overview:view'] = 'Afficher le rapport global d’achèvement des cours';
+
+$string['showenrolled'] = 'Mettre en évidence uniquement les cours avec inscriptions';
+
+$string['showenrolledonly'] = 'Afficher uniquement les cours avec des inscriptions enregistrées';
+
+$string['showenrolledonly_help'] = 'Si cette option est activée, seuls les cours ayant ou ayant eu des inscriptions enregistrées seront affichés.';
+
+$string['showexpiry'] = 'Mettre en évidence tous';
+
+$string['warningdurationcompany'] = 'Durée d’avertissement d’expiration spécifique au campus';

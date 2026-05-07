@@ -96,3 +96,18 @@ $string['used'] = 'Actif';
 $string['userlink'] = 'Afficher les utilisateurs';
 $string['userrecordnotfound'] = 'Enregistrement utilisateur introuvable';
 $string['usersummary'] = 'Résumé du cours';
+// ---- Traductions local_report_completion ----
+
+$string['course_options'] = 'Options du cours';
+
+$string['mandatoryonly'] = 'Afficher uniquement les cours obligatoires';
+
+$string['neverassigned'] = 'Jamais attribué';
+
+$string['neverenrolled'] = 'Jamais inscrit';
+
+$string['participant'] = 'Participant';
+
+$string['report_options'] = 'Options du rapport';
+
+$string['user_options'] = 'Options utilisateur';

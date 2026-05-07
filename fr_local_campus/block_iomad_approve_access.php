@@ -46,3 +46,18 @@ $string['privacy:metadata:block_iomad_approve_access:tm_ok'] = 'Validation par l
 $string['privacy:metadata:block_iomad_approve_access:userid'] = 'Identifiant de l’utilisateur';
 $string['title'] = 'Approuver les utilisateurs';
 $string['userstoapprove'] = 'Vous avez de nouvelles demandes d’approbation';
+// ---- Traductions block_iomad_approve_access ----
+
+$string['manager_approved'] = 'Approuvé par le responsable';
+
+$string['manager_denied'] = 'Refusé par le responsable';
+
+$string['request_denied'] = 'Demande refusée';
+
+$string['request_granted'] = 'Demande approuvée';
+
+$string['request_raised'] = 'Demande soumise';
+
+$string['updatefailed'] = 'La mise à jour de la demande d’approbation a échoué.';
+
+$string['updatesuccessful'] = 'La demande d’approbation a été mise à jour avec succès.';

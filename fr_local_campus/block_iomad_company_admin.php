@@ -756,3 +756,186 @@ $string['warnnotstarted'] = 'Jours pour envoyer un e-mail après si l\'utilisate
 $string['warnnotstarted_help'] = 'Si cela est défini, alors tout utilisateur qui a obtenu l\'accès à un cours et qui n\'a pas commencé dans ce laps de temps, recevra un e-mail.';
 $string['xdepartmentassignments'] = 'Les filières de {$a}';
 $string['xrolesassignments'] = 'Rôles de {$a}';
+// ---- Traductions strictes block_iomad_company_admin ----
+
+$string['allowformreset'] = 'Afficher le bouton de réinitialisation';
+
+$string['code'] = 'Code du campus';
+
+$string['companyauthsettingsresetok'] = 'Les paramètres d’authentification du campus ont été réinitialisés aux valeurs par défaut du site avec succès.';
+
+$string['companycertificatesdeletewarning'] = 'Je confirme qu’il est acceptable de supprimer tous les certificats du campus stockés dans le système. Le cas échéant, j’en ai téléchargé une copie.';
+
+$string['companycoursesdeletewarning'] = 'Je confirme qu’il est acceptable de supprimer tous les cours dédiés au campus du système. Le cas échéant, j’en ai réalisé et téléchargé une sauvegarde.';
+
+$string['companycourseupdated'] = 'Cours du campus mis à jour';
+
+$string['companydashboardpageviewed'] = 'Page tableau de bord IOMAD consultée';
+
+$string['companydeletecheckfullpreamble'] = '<p>Cela supprimera complètement le campus, y compris tous les utilisateurs, les cours dédiés, les licences, les informations de rapport stockées, les certificats enregistrés et toutes les autres données spécifiques au campus.</p><p><b>IL N’EST PAS POSSIBLE DE REVENIR EN ARRIÈRE !</b></p><p>Une liste de vérification est fournie ci-dessous et vous devez l’accepter avant la suppression du campus. Une tâche sera créée pour effectuer la suppression. Les données du campus peuvent rester visibles jusqu’à l’exécution complète de la tâche. Vous pouvez d’abord suspendre un campus pour empêcher tout accès avant de lancer ce processus.</p>';
+
+$string['companydeleted'] = 'Campus supprimé';
+
+$string['companydeletescheduled'] = 'Suppression du campus planifiée avec succès.';
+
+$string['companydepartmentsdeletewarning'] = 'Je confirme qu’il est acceptable de supprimer tous les départements du campus du système. Le cas échéant, j’ai exporté ces départements depuis le tableau de bord IOMAD.';
+
+$string['companydetails'] = 'Campus';
+
+$string['companyid'] = 'ID du campus';
+
+$string['companyimportfromfile'] = 'Téléverser des campus depuis un fichier';
+
+$string['companylicense'] = 'Licences du campus';
+
+$string['companylicensedetails'] = 'Licence du campus';
+
+$string['companylicenseusers'] = 'Licences utilisateur du campus';
+
+$string['companylicenseusersdetails'] = 'Licences utilisateur du campus';
+
+$string['companyoidcsettingsresetok'] = 'Les paramètres OIDC du campus ont été réinitialisés aux valeurs par défaut.';
+
+$string['companyreportsdeletewarning'] = 'Je confirme qu’il est acceptable de supprimer toutes les données de rapports du campus stockées dans le système. Le cas échéant, j’en ai téléchargé une copie.';
+
+$string['companysaml2settingsresetok'] = 'Les paramètres SAML2 du campus ont été réinitialisés avec succès.';
+
+$string['companysmtpsettingsresetok'] = 'Les paramètres SMTP du campus ont été mis à jour avec succès.';
+
+$string['companyuserdeleted'] = 'Utilisateur du campus supprimé';
+
+$string['companyusersdeletewarning'] = 'Je confirme qu’il est acceptable de supprimer tous les utilisateurs du campus du système. Le cas échéant, j’ai sauvegardé les utilisateurs en les téléchargeant depuis le tableau de bord IOMAD.';
+
+$string['companyusersdetails'] = 'Utilisateurs du campus';
+
+$string['companyusersuspended'] = 'Utilisateur du campus suspendu';
+
+$string['companyuserunsuspended'] = 'Utilisateur du campus réactivé';
+
+$string['company_usesmtpsettings'] = 'Utiliser la configuration email spécifique au campus';
+
+$string['coursecleared'] = 'Cours réinitialisé';
+
+$string['coursecompletions'] = 'Achèvements de cours IOMAD';
+
+$string['coursecompletionsdetails'] = 'Achèvements de cours IOMAD';
+
+$string['courseid'] = 'ID du cours';
+
+$string['coursename'] = 'Cours';
+
+$string['customdashboard'] = 'Page tableau de bord personnalisée';
+
+$string['cutoffdate'] = 'Date de coupure';
+
+$string['defaultrows'] = 'Lignes par défaut';
+
+$string['deletecertificates'] = 'Confirmer la suppression des certificats du campus';
+
+$string['departmentdetails'] = 'Département';
+
+$string['departmentid'] = 'ID du département';
+
+$string['deletecourses'] = 'Confirmer la suppression des cours du campus';
+
+$string['deletedepartments'] = 'Confirmer la suppression des départements';
+
+$string['deleteparent'] = 'Confirmer la suppression du campus parent';
+
+$string['deletereports'] = 'Confirmer la suppression des rapports du campus';
+
+$string['deleteusers'] = 'Confirmer la suppression de tous les utilisateurs';
+
+$string['deletingcompany'] = 'Suppression ({$a})';
+
+$string['downloadcertificates'] = 'Télécharger les certificats';
+
+$string['duplicatecompany'] = 'Enregistrement de campus dupliqué {$a}';
+
+$string['hascompany'] = 'Affecté à un campus';
+
+$string['hostname'] = 'Nom d’hôte';
+
+$string['humanallocation'] = 'Allocation';
+
+$string['importcompanies'] = 'Importer des campus';
+
+$string['eccommerce'] = 'E-commerce activé';
+
+$string['erroredcompanies'] = '<h2>Ces campus n’ont pas été ajoutés</h2>';
+
+$string['expirydate'] = 'Date d’expiration';
+
+$string['finalscore'] = 'Note finale';
+
+$string['givecontrol'] = 'Donner le contrôle du cours {$a} au campus';
+
+$string['instant'] = 'Instantané';
+
+$string['invalidparent'] = 'Campus parent invalide';
+
+$string['invalid_date_format'] = 'Le champ {$a} a un format de date invalide';
+
+$string['iomad_company_admin:companyadvancedsettings'] = 'Modifier les options avancées du campus pour l’authentification et les outils d’administration';
+
+$string['iomad_company_admin:companyauthsettings'] = 'Modifier les paramètres généraux d’authentification du campus';
+
+$string['iomad_company_admin:company_edit_restricted'] = 'Modifier les paramètres restreints du campus';
+
+$string['iomad_company_admin:company_edit_smtp'] = 'Modifier les paramètres email sortants du campus';
+
+$string['iomad_company_admin:delegatecourse'] = 'Définir si les cours sont modifiables par les campus';
+
+$string['iomad_company_admin:view_editusers'] = 'Voir et modifier les utilisateurs';
+
+$string['licenseid'] = 'ID de licence';
+
+$string['issuedate'] = 'Date d’émission';
+
+$string['isusing'] = 'En cours d’utilisation';
+
+$string['locationnotpublic'] = 'Privé';
+
+$string['locationpublic'] = 'Public';
+
+$string['mandatory'] = 'Obligatoire';
+
+$string['maxusers'] = 'Utilisateurs maximum';
+
+$string['name'] = 'Nom';
+
+$string['noenrolmentcourses'] = 'Aucun cours disponible pour inscrire des utilisateurs';
+
+$string['parentcompanydeletewarning'] = 'Je confirme qu’il est acceptable de supprimer ce campus parent du système. Les campus enfants seront soit rattachés au parent de ce campus, soit convertis en campus indépendant.';
+
+$string['parentid'] = 'ID de licence parent';
+
+$string['program'] = 'Programme';
+
+$string['public'] = 'Rendre ce lieu public';
+
+$string['public_help'] = 'Les lieux publics de formation sont partagés avec tous les campus IOMAD.';
+
+$string['reference'] = 'Référence';
+
+$string['resetdefault'] = 'Réinitialiser aux valeurs par défaut';
+
+$string['setfromcompany'] = 'Défini depuis le département du campus';
+
+$string['settocompany'] = 'Définir sur le département du campus';
+
+$string['shortname'] = 'Nom court';
+
+$string['startdate'] = 'Date de début';
+
+$string['suspendafter'] = 'Suspendre après';
+
+$string['takecontrol'] = 'Retirer le contrôle du cours {$a} au campus';
+
+$string['used'] = 'Utilisé';
+
+$string['userid'] = 'ID utilisateur';
+
+$string['validlength'] = 'Longueur valide';
+
+$string['validto'] = 'Valide jusqu’au';

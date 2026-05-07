@@ -67,3 +67,4 @@ $string['usercoursedetails'] = 'Détails de l’utilisateur';
 $string['userdetails'] = 'Rapport utilisateur pour';
 $string['user_detail_title'] = 'Rapports utilisateurs';
 $string['viewfullcourse'] = 'Voir le résumé complet du cours';
+$string['notenrolled'] = 'Non inscrit';

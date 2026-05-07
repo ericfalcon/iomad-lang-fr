@@ -38,3 +38,26 @@ $string['resendemail'] = 'Renvoyer l’e-mail';
 $string['resendemailfull'] = 'Voulez-vous vraiment renvoyer cet e-mail ?';
 $string['sender'] = 'Expéditeur';
 $string['sent'] = 'Date d’envoi';
+// ---- Traductions local_email_reports ----
+
+$string['blocktitle'] = 'Rapports d’e-mail';
+
+$string['company_license_expiring_task'] = 'Rapports d’e-mail – tâche d’expiration des licences du campus';
+
+$string['course_expiry_warning_task'] = 'Rapports d’e-mail – tâche d’alerte d’expiration des cours';
+
+$string['course_not_completed_task'] = 'Rapports d’e-mail – tâche de cours non terminés';
+
+$string['course_not_started_task'] = 'Rapports d’e-mail – tâche de cours non démarrés';
+
+$string['manager_completion_digest_task'] = 'Rapports d’e-mail – tâche de synthèse des complétions récentes pour les responsables';
+
+$string['manager_expiring_digest_task'] = 'Rapports d’e-mail – tâche de synthèse des cours arrivant à expiration pour les responsables';
+
+$string['manager_warning_digest_task'] = 'Rapports d’e-mail – tâche de synthèse des cours non terminés pour les responsables';
+
+$string['pluginname'] = 'Rapports d’e-mail';
+
+$string['privacy:metadata'] = 'Le plugin local IOMAD de rapports d’e-mail affiche uniquement des données stockées dans d’autres emplacements.';
+
+$string['trainingevent_not_selected_task'] = 'Rapports d’e-mail – tâche des sessions de formation non sélectionnées';

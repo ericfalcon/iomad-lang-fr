@@ -176,3 +176,52 @@ $string['unprocesseditems'] = 'Articles non traités';
 $string['useexternalshop'] = 'Utiliser une solution de commerce électronique externe';
 $string['useexternalshop_help'] = 'Activez cette option si vous disposez d’une solution externe compatible avec IOMAD.';
 $string['value'] = 'Valeur';
+// ---- Traductions block_iomad_commerce ----
+
+$string['courseshoptagcreated'] = 'Étiquette boutique de cours créée';
+
+$string['courseshoptagdeleted'] = 'Étiquette boutique de cours supprimée';
+
+$string['deleteshoptag'] = 'Supprimer l’étiquette boutique - {$a}';
+
+$string['deleteshoptagcheck'] = 'Êtes-vous sûr de vouloir supprimer cette étiquette boutique ?';
+
+$string['deleteshoptagcheckused'] = 'Cette étiquette est utilisée par les éléments suivants : {$a}. Êtes-vous sûr de vouloir la supprimer ?';
+
+$string['error_invalidlicenseamount'] = 'Le nombre de licences doit être supérieur ou égal à 1';
+
+$string['error_invalidlicensenumber'] = 'La valeur du premier palier de licences doit être 1 ou 2';
+
+$string['error_invalidlicenseprice'] = 'Le prix est requis';
+
+$string['error_singlepurchaseunavailable'] = 'L’achat d’une licence unique n’est pas disponible pour ce produit';
+
+$string['howmanylicences'] = 'Nombre de licences ?';
+
+$string['iomad_commerce:manage_tags'] = 'Gérer les étiquettes';
+
+$string['itemsusedby'] = 'Éléments utilisant cette étiquette';
+
+$string['learning_paths'] = 'Parcours de formation';
+
+$string['managetags'] = 'Gérer les étiquettes';
+
+$string['managetagsviewed'] = 'Gestion des étiquettes consultée';
+
+$string['notagsexist'] = 'Aucune étiquette disponible';
+
+$string['onlyonecoursepath'] = 'Vous ne pouvez pas sélectionner à la fois des cours et des parcours de formation';
+
+$string['product_login'] = 'Veuillez vous connecter pour acheter ce produit';
+
+$string['requiredcoursepath'] = 'Vous devez sélectionner un cours ou un parcours de formation';
+
+$string['shoptagdeleted'] = 'Étiquette boutique supprimée';
+
+$string['shop_login_title'] = 'Veuillez vous connecter pour accéder à la boutique';
+
+$string['tagnameupdated'] = 'Nom de l’étiquette boutique mis à jour';
+
+$string['uniquifyshoptagstask'] = 'Créer des enregistrements uniques d’étiquettes boutique pour chaque entité';
+
+$string['user_basket_cleanup_task'] = 'Nettoyage des paniers abandonnés';

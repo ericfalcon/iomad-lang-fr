@@ -81,3 +81,161 @@ $string['update_onupdate'] = 'Lors de la mise à jour';
 $string['wantassertionssigned'] = 'Exiger la signature des assertions';
 $string['wantassertionssigned_help'] = 'Indique si les assertions SAML doivent être signées.';
 $string['wrongauth'] = 'Connexion réussie, mais accès non autorisé.';
+// ---- Traductions manquantes auth_iomadsaml2 ----
+
+$string['allowcreate'] = 'Autoriser la création';
+$string['allowcreate_help'] = 'Autoriser la création des utilisateurs IdP à la demande';
+
+$string['alterlogout'] = 'URL de déconnexion alternative';
+$string['alterlogout_help'] = 'URL de redirection après exécution de tous les mécanismes de déconnexion';
+
+$string['anyauth'] = 'Autoriser tous les types d’authentification';
+$string['anyauth_help'] = 'Oui : autoriser la connexion SAML pour tous les utilisateurs. Non : uniquement pour ceux utilisant iomadsaml2.';
+
+$string['anyauthotherdisabled'] = 'Connexion réussie pour "{$a->username}" mais le type d’authentification "{$a->auth}" est désactivé.';
+
+$string['assertionsconsumerservices'] = 'Services de consommation d’assertions';
+$string['assertionsconsumerservices_help'] = 'Liste des bindings que le fournisseur de services doit supporter';
+
+$string['attemptsignout'] = 'Tenter une déconnexion IdP';
+$string['attemptsignout_help'] = 'Tentera d’envoyer une requête de déconnexion au fournisseur d’identité';
+
+$string['attrsimple'] = 'Simplifier les attributs';
+$string['attrsimple_help'] = 'Simplifie les noms d’attributs complexes (URN/XML) en noms simples (ex : givenname).';
+
+$string['authncontext'] = 'Contexte d’authentification';
+$string['authncontext_help'] = 'Permet d’ajouter des informations dans les assertions. Laisser vide si inutile.';
+
+$string['auth_data_mapping'] = 'Mapping des données';
+
+$string['auth_fieldlockfield'] = 'Verrouiller la valeur ({$a})';
+$string['auth_fieldlocks'] = 'Verrouiller les champs utilisateur';
+
+$string['auth_fieldlock_expl'] = '<p><b>Verrouillage :</b> empêche toute modification du champ dans Moodle. Utilisez si la donnée est gérée côté système externe.</p>';
+
+$string['auth_fieldmapping'] = 'Mapping des données ({$a})';
+
+$string['auth_iomadsaml2blockredirectdescription'] = 'Rediriger ou afficher un message pour les connexions SAML2 en fonction des groupes configurés';
+
+$string['auth_iomadsaml2description'] = 'Authentification via un fournisseur d’identité SAML2';
+
+$string['auth_updatelocalfield'] = 'Mettre à jour local ({$a})';
+$string['auth_updateremotefield'] = 'Mettre à jour externe ({$a})';
+
+$string['autocreate'] = 'Créer automatiquement les utilisateurs';
+$string['autocreate_help'] = 'Autoriser la création d’utilisateurs Moodle à la demande';
+
+$string['autologin'] = 'Connexion automatique';
+$string['autologinbycookie'] = 'Vérifier via cookie';
+$string['autologinbysession'] = 'Vérifier une fois par session';
+
+$string['autologincookie'] = 'Cookie de connexion automatique';
+$string['autologincookie_help'] = 'Nom du cookie utilisé pour déclencher la connexion automatique';
+
+$string['autologin_help'] = 'Connecte automatiquement l’utilisateur si déjà authentifié sur le fournisseur d’identité';
+
+$string['availableidps'] = 'Fournisseurs d’identité disponibles';
+$string['availableidps_help'] = 'Sélectionner les IdP utilisables si plusieurs sont présents';
+
+$string['blockredirectheading'] = 'Actions de blocage de compte';
+
+$string['cannotmapfield'] = 'Conflit de mapping : deux champs liés au même élément {$a}';
+
+$string['certificate'] = 'Régénérer le certificat';
+$string['certificatedetails'] = 'Détails du certificat';
+
+$string['certificatelock'] = 'Verrouiller le certificat';
+$string['certificatelock_help'] = 'Empêche la régénération du certificat';
+
+$string['certificatelock_locked'] = 'Certificat verrouillé';
+$string['certificatelock_lockedmessage'] = 'Les certificats sont actuellement verrouillés';
+
+$string['certificatelock_unlock'] = 'Déverrouiller les certificats';
+
+$string['checkcertificateexpired'] = 'Certificat SAML expiré il y a {$a}';
+$string['checkcertificateexpiry'] = 'Expiration du certificat SAML';
+
+$string['checkcertificateok'] = 'Certificat SAML expire dans {$a}';
+$string['checkcertificatewarn'] = 'Certificat SAML expirera dans {$a}';
+
+$string['commonname'] = 'Nom commun';
+$string['countryname'] = 'Pays';
+
+$string['debug'] = 'Débogage';
+
+$string['duallogin'] = 'Connexion double';
+
+$string['emailtaken'] = 'Impossible de créer le compte : email déjà utilisé ({$a})';
+$string['emailtakenupdate'] = 'Email non mis à jour : déjà utilisé ({$a})';
+
+$string['error'] = 'Erreur de connexion';
+
+$string['errorinvalidautologin'] = 'Requête de connexion automatique invalide';
+$string['errorparsingxml'] = 'Erreur lors du traitement XML : {$a}';
+
+$string['exception'] = 'Exception SAML2 : {$a}';
+
+$string['expirydays'] = 'Durée d’expiration (jours)';
+
+$string['fielddelimiter'] = 'Séparateur de champ';
+$string['fielddelimiter_help'] = 'Utilisé lorsque plusieurs valeurs sont reçues';
+
+$string['flaggedresponsetypemessage'] = 'Afficher un message personnalisé';
+$string['flaggedresponsetyperedirect'] = 'Rediriger vers une URL externe';
+
+$string['flagmessage'] = 'Message de réponse';
+$string['flagmessage_default'] = 'Vous êtes connecté mais avec un accès limité. Contactez l’administrateur.';
+
+$string['flagredirecturl'] = 'URL de redirection';
+
+$string['flagresponsetype'] = 'Type de réponse en cas de blocage';
+
+$string['grouprules'] = 'Règles de groupes';
+
+$string['idpattr'] = 'Attribut IdP';
+$string['idpattr_help'] = 'Attribut IdP à comparer avec Moodle';
+
+$string['idpmetadata'] = 'Métadonnées IdP XML ou URL';
+
+$string['idpmetadatarefresh'] = 'Actualisation des métadonnées IdP';
+
+$string['idpmetadata_badurl'] = 'URL de métadonnées invalide : {$a}';
+
+$string['idpname'] = 'Nom du fournisseur';
+$string['idpnamedefault'] = 'Connexion via SAML2';
+$string['idpnamedefault_varaible'] = 'Connexion via SAML2 ({$a})';
+
+$string['localityname'] = 'Localité';
+
+$string['locked'] = 'Verrouillé';
+
+$string['logdir'] = 'Répertoire des journaux';
+$string['logdir_help'] = 'Répertoire pour les logs SimpleSAMLphp';
+
+$string['logtofile'] = 'Activer les logs fichier';
+$string['logtofile_help'] = 'Écrit les logs dans un fichier';
+
+$string['manageidpsheading'] = 'Gestion des fournisseurs d’identité';
+
+$string['mdlattr'] = 'Champ Moodle';
+$string['mdlattr_help'] = 'Champ Moodle associé';
+
+$string['multiidp:label:active'] = 'Actif';
+$string['multiidp:label:alias'] = 'Alias';
+
+$string['noredirectips'] = 'Restreindre noredirect par IP';
+
+$string['organizationname'] = 'Organisation';
+
+$string['pluginname'] = 'SAML2';
+
+$string['sha256'] = 'SHA256';
+$string['sha384'] = 'SHA384';
+$string['sha512'] = 'SHA512';
+
+$string['source'] = 'Source : {$a}';
+
+$string['sspversion'] = 'Version SimpleSAMLphp';
+
+$string['tempdir'] = 'Répertoire temporaire';
+$string['tempdir_help'] = 'Répertoire temporaire utilisé par SimpleSAMLphp';

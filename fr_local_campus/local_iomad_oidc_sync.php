@@ -38,3 +38,28 @@ $string['tenantnameorguid_changed_success'] = 'Les options du campus ont été e
 $string['tenantnameorguid_changed_warning'] = 'Les options du campus ont été enregistrées avec succès.<br>En raison de la modification du nom du tenant ou du GUID, vous devrez peut‑être repasser par le processus d’autorisation.';
 $string['unsuspendonsync'] = 'Réactiver les utilisateurs existants lors de la synchronisation';
 $string['useroptions'] = 'Concernant les utilisateurs supprimés, nous';
+// ---- Traductions local_iomad_settings ----
+
+$string['iomad_downloaddetails'] = 'Télécharger les détails d’activité dans le rapport d’achèvement des cours';
+
+$string['iomad_downloaddetails_help'] = 'Si cette option est activée, tous les détails des critères d’achèvement du cours pour l’utilisateur seront téléchargés, ainsi que leur statut. Sans cette option, seul le statut sera inclus.';
+
+$string['iomad_showcharts'] = 'Afficher les graphiques d’achèvement des cours par défaut';
+
+$string['iomad_showcharts_help'] = 'Si activé, les graphiques seront affichés en premier, avec la possibilité de les afficher sous forme de texte à la place';
+
+$string['iomad_showcompanydropdown'] = 'Afficher le sélecteur de campus dans la barre de navigation';
+
+$string['iomad_showcompanydropdown_help'] = 'Si cette option est activée, le sélecteur de campus est affiché dans la barre de navigation lorsque l’utilisateur peut accéder à plusieurs campus. Si cette option est désactivée, un autre moyen devra être fourni pour accéder au sélecteur de campus si l’utilisateur n’a pas accès au tableau de bord IOMAD du campus actuel.';
+
+$string['iomad_show_company_structure'] = 'Afficher la hiérarchie des campus dans le sélecteur';
+
+$string['iomad_show_company_structure_help'] = 'Si activé, les campus enfants apparaîtront en retrait sous le campus parent dans le sélecteur de campus. Cela peut avoir un impact sur les performances pour les sites volumineux.';
+
+$string['iomad_useicons'] = 'Utiliser des icônes dans le tableau de bord IOMAD';
+
+$string['iomad_useicons_help'] = 'Si activé, les icônes du tableau de bord utiliseront des images au lieu des icônes Font Awesome';
+
+$string['iomad_use_mandatory_courses'] = 'Activer les cours obligatoires';
+
+$string['iomad_use_mandatory_courses_help'] = 'L’activation des cours obligatoires permet de marquer certains cours comme obligatoires. Les rapports d’achèvement et le tableau de bord de l’utilisateur peuvent ensuite filtrer ces cours.';

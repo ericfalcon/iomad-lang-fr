@@ -58,3 +58,13 @@ $string['privacy:metadata:local_iomad_track_certs:filename'] = 'Nom du fichier d
 $string['privacy:metadata:local_iomad_track_certs:id'] = 'Identifiant local de l’enregistrement du certificat';
 $string['privacy:metadata:local_iomad_track_certs:trackid'] = 'Identifiant de suivi du certificat';
 $string['uploadcompletionresult'] = 'Télécharger le résultat de l’importation des achèvements';
+// ---- Traductions local_iomad_track ----// ---- Traductions certificat vers le contexte utilisateur';
+
+$string['nocertificatesfound'] = 'Aucun certificat trouvé à télécharger';
+
+$string['savecertificatetask'] = 'Tâche ad hoc pour enregistrer un certificat pour un utilisateur lors de l’achèvement du cours';
+
+$string['sendcompletionemailtask'] = 'Tâche ad hoc d’envoi d’un e-mail d’achèvement de cours';
+
+
+$string['erroropeningzip'] = 'Erreur lors de la création du fichier ZIP : {$a}';

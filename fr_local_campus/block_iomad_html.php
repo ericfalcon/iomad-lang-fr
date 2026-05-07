@@ -28,3 +28,8 @@ $string['leaveblanktohide'] = 'Laisser vide pour masquer le titre';
 $string['newiomad_htmlblock'] = '(nouveau bloc HTML de campus)';
 $string['pluginname'] = 'IOMAD HTML';
 $string['privacy:metadata'] = 'Le bloc HTML IOMAD affiche uniquement des données stockées dans d’autres composants.';
+// ---- Traductions block_iomad_html ----
+
+$string['privacy:metadata:block'] = 'Le bloc de texte IOMAD affiche uniquement des données stockées dans d’autres emplacements.';
+
+$string['search:content'] = 'Contenu du bloc texte';

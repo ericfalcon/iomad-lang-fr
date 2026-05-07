@@ -127,3 +127,50 @@ $string['updown'] = 'Haut / Bas';
 $string['uploadgroupresult'] = 'Télécharger le résultat des groupes';
 $string['url'] = 'URL';
 $string['url_help'] = 'Indiquez une URL appartenant à ce site';
+// ---- Traductions block_iomad_microlearning ----
+
+$string['cmidalreadyinuse'] = 'L’identifiant du module de cours est déjà utilisé';
+
+$string['ibnalidthreadid'] = 'Le fil que vous recherchez n’existe pas';
+
+$string['nonuggets'] = 'Il n’existe aucun élément pour ce fil';
+
+$string['privacy:metadata'] = 'Le bloc IOMAD Microlearning affiche uniquement des données stockées dans d’autres emplacements.';
+
+$string['privacy:metadata:microlearning_thread_user'] = 'Informations des données utilisateur du fil microlearning. Aucune donnée personnelle n’est stockée.';
+
+$string['privacy:metadata:microlearning_thread_user:accesskey'] = 'Clé d’accès email du fil microlearning';
+
+$string['privacy:metadata:microlearning_thread_user:due_date'] = 'Date d’échéance du fil microlearning';
+
+$string['privacy:metadata:microlearning_thread_user:groupid'] = 'Identifiant du groupe du fil microlearning';
+
+$string['privacy:metadata:microlearning_thread_user:id'] = 'Identifiant d’enregistrement du fil microlearning';
+
+$string['privacy:metadata:microlearning_thread_user:messagetime'] = 'Délai avant l’envoi des messages du fil microlearning';
+
+$string['privacy:metadata:microlearning_thread_user:message_delivered'] = 'Indicateur de livraison du message du fil microlearning';
+
+$string['privacy:metadata:microlearning_thread_user:nuggetid'] = 'Identifiant de l’élément du fil microlearning';
+
+$string['privacy:metadata:microlearning_thread_user:reminder1_date'] = 'Date du premier rappel du fil microlearning';
+
+$string['privacy:metadata:microlearning_thread_user:reminder1_delivered'] = 'Indicateur de livraison du premier rappel du fil microlearning';
+
+$string['privacy:metadata:microlearning_thread_user:reminder2_date'] = 'Date du second rappel du fil microlearning';
+
+$string['privacy:metadata:microlearning_thread_user:reminder2_delivered'] = 'Indicateur de livraison du second rappel du fil microlearning';
+
+$string['privacy:metadata:microlearning_thread_user:schedule_date'] = 'Date de planification du fil microlearning';
+
+$string['privacy:metadata:microlearning_thread_user:threadid'] = 'Identifiant du fil microlearning';
+
+$string['privacy:metadata:microlearning_thread_user:timecompleted'] = 'Date d’achèvement de l’élément du fil microlearning';
+
+$string['privacy:metadata:microlearning_thread_user:timecreated'] = 'Date de création du fil microlearning';
+
+$string['privacy:metadata:microlearning_thread_user:userid'] = 'Identifiant de l’utilisateur du fil microlearning';
+
+$string['userassigned'] = 'Utilisateur attribué';
+
+$string['userunassigned'] = 'Utilisateur retiré';

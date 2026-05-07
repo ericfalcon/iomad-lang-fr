@@ -102,3 +102,10 @@ $string['userreviewtable_legend'] = '<b>Examiner les utilisateurs à fusionner</
 $string['userselecttable_legend'] = '<b>Sélectionner les utilisateurs à fusionner</b>';
 $string['viewlog'] = 'Voir les journaux de fusion';
 $string['wronglogid'] = 'Le journal demandé est introuvable.';
+// ---- Traductions tool_iomadmerge ----
+
+$string['exportlogs'] = 'Exporter les journaux au format CSV';
+
+$string['mergedbyuseridonlog'] = 'Fusionné par';
+
+$string['nomergedby'] = 'Non renseigné';

@@ -96,3 +96,124 @@ $string['iomadpolicydocoptionalno'] = 'Obligatoire';
 $string['iomadpolicydocoptionalyes'] = 'Optionnel';
 $string['iomadpolicydocsummary'] = 'Résumé';
 $string['iomadpolicydocsummary_help'] = 'Ce texte doit fournir un résumé clair et compréhensible de la politique.';
+// ---- Traductions tool_iomadpolicy ----
+
+$string['iomadpolicydoctype'] = 'Type';
+$string['iomadpolicydoctype0'] = 'Politique du site';
+$string['iomadpolicydoctype1'] = 'Politique de confidentialité';
+$string['iomadpolicydoctype2'] = 'Politique des tiers';
+$string['iomadpolicydoctype99'] = 'Autre politique';
+
+$string['iomadpolicydocuments'] = 'Documents de politique';
+
+$string['iomadpolicynamedversion'] = 'Politique {$a->name} (version {$a->revision} - {$a->id})';
+
+$string['iomadpolicypriorityagreement'] = 'Afficher cette politique avant les autres';
+
+$string['iomadpolicyversionacceptedinbehalf'] = 'Le consentement à cette politique a été donné en votre nom.';
+
+$string['iomadpolicyversionacceptedinotherlang'] = 'Le consentement pour cette version de la politique a été donné dans une autre langue.';
+
+$string['irevoketheiomadpolicy'] = 'Retirer le consentement utilisateur';
+
+$string['listactivepolicies'] = 'Liste des politiques actives';
+
+$string['managepolicies'] = 'Gérer les politiques';
+
+$string['minorchange'] = 'Modification mineure';
+
+$string['minorchangeinfo'] = 'Une modification mineure ne change pas le sens de la politique. Les utilisateurs n’ont pas à donner à nouveau leur consentement.';
+
+$string['movedown'] = 'Déplacer vers le bas';
+$string['moveup'] = 'Déplacer vers le haut';
+
+$string['mustagreetocontinue'] = 'Avant de continuer, vous devez accepter toutes ces politiques.';
+
+$string['newiomadpolicy'] = 'Nouvelle politique';
+$string['newversion'] = 'Nouvelle version';
+
+$string['noactivepolicies'] = 'Aucune politique avec une version active.';
+$string['nofiltersapplied'] = 'Aucun filtre appliqué';
+
+$string['nopermissiontoagreedocs'] = 'Vous n’avez pas l’autorisation d’accepter les politiques';
+
+$string['nopermissiontoagreedocsbehalf'] = 'Vous n’avez pas l’autorisation d’accepter les politiques au nom de cet utilisateur';
+
+$string['nopermissiontoagreedocsbehalf_desc'] = 'Vous ne disposez pas des permissions nécessaires pour accepter les politiques suivantes au nom de {$a} :';
+
+$string['nopermissiontoagreedocscontact'] = 'Pour plus d\'assistance, veuillez contacter';
+
+$string['nopermissiontoagreedocs_desc'] = 'Vous ne disposez pas des permissions nécessaires pour accepter les politiques.<br />Vous ne pourrez pas utiliser ce site tant que les politiques suivantes ne sont pas acceptées :';
+
+$string['nopermissiontoviewiomadpolicyversion'] = 'Vous n’avez pas l’autorisation de consulter cette version de la politique.';
+
+$string['nopolicies'] = 'Aucune politique avec une version active pour les utilisateurs enregistrés.';
+
+$string['pluginname'] = 'Politiques IOMAD';
+
+$string['policiesagreements'] = 'Politiques et accords';
+
+$string['previousversions'] = '{$a} versions précédentes';
+
+$string['privacysettings'] = 'Paramètres de confidentialité';
+
+$string['readiomadpolicy'] = 'Veuillez lire notre {$a}';
+
+$string['refertofulliomadpolicytext'] = 'Veuillez consulter la version complète de {$a} pour en prendre connaissance.';
+
+$string['response'] = 'Réponse';
+$string['responseby'] = 'Répondant';
+$string['responseon'] = 'Date';
+
+$string['revokeacknowledgement'] = 'Je reconnais avoir reçu une demande de retrait de consentement pour le(s) utilisateur(s) ci-dessus.';
+
+$string['save'] = 'Enregistrer';
+$string['saveasdraft'] = 'Enregistrer comme brouillon';
+
+$string['selectiomadpolicyandversion'] = 'Utilisez le filtre ci-dessus pour sélectionner une politique et/ou une version';
+
+$string['selectuser'] = 'Sélectionner l’utilisateur {$a}';
+
+$string['selectusersforconsent'] = 'Sélectionner les utilisateurs pour donner leur consentement en leur nom';
+
+$string['settodraft'] = 'Créer un nouveau brouillon';
+
+$string['status'] = 'Statut de la politique';
+$string['status0'] = 'Brouillon';
+$string['status1'] = 'Actif';
+$string['status2'] = 'Inactif';
+
+$string['statusformtitleaccept'] = 'Acceptation de la politique';
+$string['statusformtitledecline'] = 'Refus de la politique';
+$string['statusformtitlerevoke'] = 'Retrait du consentement';
+
+$string['statusinfo'] = 'Une politique active nécessite l’acceptation par les utilisateurs lors de leur connexion.';
+
+$string['steppolicies'] = 'Politique {$a->numiomadpolicy} sur {$a->totalpolicies}';
+
+$string['useracceptanceactionaccept'] = 'Accepter';
+$string['useracceptanceactionacceptone'] = 'Accepter {$a}';
+$string['useracceptanceactionacceptpending'] = 'Accepter les politiques en attente';
+
+$string['useracceptanceactiondecline'] = 'Refuser';
+$string['useracceptanceactiondeclineone'] = 'Refuser {$a}';
+$string['useracceptanceactiondeclinepending'] = 'Refuser les politiques en attente';
+
+$string['useracceptanceactiondetails'] = 'Détails';
+
+$string['useracceptanceactionrevoke'] = 'Retirer';
+$string['useracceptanceactionrevokeall'] = 'Retirer les politiques acceptées';
+$string['useracceptanceactionrevokeone'] = 'Retirer le consentement pour {$a}';
+
+$string['useracceptancecount'] = '{$a->agreedcount} sur {$a->userscount} ({$a->percent}%)';
+$string['useracceptancecountna'] = 'N/A';
+
+$string['useracceptances'] = 'Accords utilisateurs';
+
+$string['useriomadpolicysettings'] = 'Politiques';
+
+$string['usersaccepted'] = 'Accords';
+
+$string['viewarchived'] = 'Voir les versions précédentes';
+
+$string['viewconsentpageforuser'] = 'Affichage de cette page pour {$a}';

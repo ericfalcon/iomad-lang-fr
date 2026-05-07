@@ -64,3 +64,28 @@ $string['show_suspended_companies'] = 'Afficher les campus suspendus ?';
 $string['show_suspended_users'] = 'Afficher les utilisateurs suspendus ?';
 $string['userfilter'] = 'Filtrer les résultats';
 $string['usersearchfields'] = 'Champs de recherche des utilisateurs';
+// ---- Traductions local_iomad ----
+
+$string['bulkenroluserssuccess'] = 'En raison du nombre d’utilisateurs sélectionnés, une tâche ad hoc a été créée pour traiter cette demande. Cela peut prendre un certain temps. En attendant, les inscriptions demandées peuvent ne pas être affichées.';
+
+$string['bulkuserunenrolsuccess'] = 'En raison du nombre d’utilisateurs sélectionnés, une tâche ad hoc a été créée pour traiter cette demande. Cela peut prendre un certain temps. En attendant, les désinscriptions demandées peuvent ne pas être affichées.';
+
+$string['coursesearchfields'] = 'Recherche de cours';
+
+$string['datesearchfields'] = 'Recherche par date';
+
+$string['deletecompany'] = 'Tâche ad hoc de suppression du campus';
+
+$string['enforce_username_match'] = 'Exiger la correspondance des noms d’utilisateur entre locataires';
+
+$string['enforce_username_match_help'] = 'Si activé, les utilisateurs existants dans d’autres locataires ne peuvent être mis en correspondance que par nom d’utilisateur (au lieu du prénom, nom et adresse e-mail) afin d’éviter la création d’un utilisateur distinct.';
+
+$string['enroluserstask'] = 'Tâche ad hoc d’inscription en masse des utilisateurs';
+
+$string['enroluserstask'] = 'Tâche ad hoc d’inscription en masse des utilisateurs';
+
+$string['removelicenses'] = 'Supprimé – enregistrements de cours du campus et licences';
+
+$string['resetroles'] = 'Tâche ad hoc de réinitialisation des rôles';
+
+$string['unenroluserstask'] = 'Tâche ad hoc de désinscription en masse des utilisateurs';

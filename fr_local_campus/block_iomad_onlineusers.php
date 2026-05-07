@@ -32,3 +32,22 @@ $string['iomad_onlineusers:viewlist'] = 'Afficher la liste des utilisateurs en l
 $string['periodnminutes'] = '{$a} dernières minutes';
 $string['pluginname'] = 'Utilisateurs d\'Iomad en ligne';
 $string['timetosee'] = 'Supprimer après inactivité (minutes)';
+// ---- Traductions block_iomad_onlineusers ----
+
+$string['nouser'] = 'Aucun utilisateur en ligne';
+
+$string['numuser'] = '{$a} utilisateur en ligne';
+
+$string['numusers'] = '{$a} utilisateurs en ligne';
+
+$string['onlinestatushiding'] = 'Masquage du statut en ligne';
+
+$string['onlinestatushiding_desc'] = 'Si activé, les utilisateurs peuvent choisir de masquer leur statut en ligne aux autres utilisateurs.';
+
+$string['online_status:hide'] = 'Masquer mon statut en ligne aux autres utilisateurs';
+
+$string['online_status:show'] = 'Afficher mon statut en ligne aux autres utilisateurs';
+
+$string['otherusers'] = 'Autres utilisateurs ({$a})';
+
+$string['privacy:metadata:preference:uservisibility'] = 'Statut en ligne visible pour les autres utilisateurs dans le bloc utilisateurs en ligne.';
